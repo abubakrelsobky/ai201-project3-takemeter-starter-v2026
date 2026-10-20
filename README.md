@@ -42,7 +42,13 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-
+TakeMeter reads text posts from Hacker News: mostly "Ask HN" and "Show HN"
+posts where people ask for advice, share projects, or describe a problem. It
+sorts each post into one of two labels: `Numeric` if the title or body
+contains at least one digit (a price, a count, a date, a version number,
+anything), or `Qualitative` if it contains none. The dataset is 205 recent
+posts pulled from the public Hacker News API, and the classifier is a
+fine-tuned DistilBERT trained on my labels.
 
 ---
 
@@ -123,7 +129,8 @@ I used AI to generate a script to label them.
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have been, and what you chose. These are worth more than the easy 190. -->
+<!-- Any post that made you pause: what it was, which two labels it could have 
+been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
 > *The post:*
@@ -177,17 +184,39 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Feedback from Claude on my first acceptance criterion,
+  "The F1 score for both labels should be 0.99."
+- *What came back:* 0.99 couldn't be defended. With only about 9
+  `Qualitative` posts in the test split, one wrong prediction is enough to fall
+  below it. It also said one number for both labels ignored that `Numeric` has
+  more than twice as many examples.
+- *What I changed:* I set separate targets, F1 ≥ 0.85 for `Numeric` and
+  ≥ 0.70 for `Qualitative`. I also made the criterion say "on the held-out test
+  set, in all three seeds."
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Feedback on my consistency criterion, "Two readers reading
+  the same taxonomy definitions should label both groups at least 85% of the
+  time accurately."
+- *What came back:* "Accurately" was the wrong word, since agreement between
+  two readers has no right answer. "Two readers" also didn't name a real check.
+  The actual check is `agreement.py` on the staff's 30 posts, under the staff's
+  three labels. And the staff note says agreement in the 70s is normal on those
+  posts.
+- *What I changed:* I rewrote it as "my labels match the staff labels on at
+  least 80% of posts (at least 24 of 30)," and gave the staff's 70s figure as
+  the reason for the number.
 
 **Pre-labelling disclosure:**
+
+185 of the 205 posts were pre-labelled by my collection script, `get_data.py`.
+The script gives a post `Numeric` if its title or body contains any digit and
+`Qualitative` otherwise. No AI model did any labelling. I then read every
+pre-labelled post and corrected the label wherever the digit rule got it wrong.
+These rows are marked `pre-labeled (script)` in the `note` column. The other 20
+posts I labelled cold, by hand, before looking at the script's label; these are
+marked `cold`.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
