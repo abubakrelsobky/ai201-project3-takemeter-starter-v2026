@@ -48,53 +48,69 @@
 
 ## Label Taxonomy
 
-<!-- Each label: a one-sentence definition and two real examples from your
-     reading. Then your decision rule for the hardest boundary.
+<!-- Each label: a one-sentence definition and two real examples from your reading. Then your decision rule for the hardest boundary.
 
-     The decision rule is worth a point on its own and it's the thing most
-     people leave out. Every taxonomy has a hardest boundary. Name yours. -->
+     The decision rule is worth a point on its own and it's the thing most people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `No Digits`
 
 **Definition:**
 
+The post does not have any numbers in it
+
 **Example 1:**
->
+> "Show HN: The Handsome Boy
+
+Photographs with atmospheric themes
+Films and videos, including those about bike tours and fitness training
+Grow Diaries, i.e., documented planting and cultivation projects
+A playlist of songs that go well with the pictures or that I listen to often."
+
 
 **Example 2:**
->
+> "Google Meet Enshittification
 
-### `label_two`
+Google Meet Android app meeting join now claims to need Notification Permissions for incoming and outgoing calls.
+
+This claim is false. There's no such requirement. And if there were, it would be needless and wholly unreasonable."
+
+
+### `Contains Digit`
 
 **Definition:**
+The post has at least one numebr in it.
 
 **Example 1:**
->
+> "Ask HN: What is/was your strategy which landed you a JOB in this market?
+
+I am a 2yoe+ software engineer working at oracle, with going layoffs I am bit insecure about the job, and wanted to know in this market what do you guys suggest for switching to another job ?"
+
 
 **Example 2:**
->
+> "Ask HN: My Gemini bill shot up suddenly to 2500 USD in one day
+
+our usage of gemini is very limited. using 2.5 flash or similar models. at a hackathon in bay area i used the api key in my google app script. from that day my  usage overshot to insane amounts.Google started charging y card every 30 mins or so. Google support said they will help significantly waive this off but they havent been swift. any one else experienced anything similar?"
+
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** It is quite clear cut to distinguish them
 
 **The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
-
-
+<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even if the tone is heated." -->
+The rule it to see whther there are any digits. If there is any single digit, regardless of what it is, we label it 'Contains Digit.'
 
 ---
 
 ## The Dataset
 
-<!-- Where you collected from, how you labelled, your counts, and three hard
-     cases. -->
+<!-- Where you collected from, how you labelled, your counts, and three hard cases. -->
 
 **Where the posts came from:**
+The posts were collected from Hacker News using its public Firebase REST API, pulling directly from official community discussion stories and feeds.
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+I used AI to generate a script to label them.
 
 **Counts per label:**
 
@@ -107,8 +123,7 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
+<!-- Any post that made you pause: what it was, which two labels it could have been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
 > *The post:*
