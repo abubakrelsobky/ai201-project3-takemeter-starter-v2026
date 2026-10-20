@@ -1,0 +1,2087 @@
+text,label,note
+"Ask HN: What is/was your strategy which landed you a JOB in this market?
+
+I am a 2yoe+ software engineer working at oracle, with going layoffs I am bit insecure about the job, and wanted to know in this market what do you guys suggest for switching to another job ?",Numeric,cold
+"Ask HN: My Gemini bill shot up suddenly to 2500 USD in one day
+
+our usage of gemini is very limited. using 2.5 flash or similar models. at a hackathon in bay area i used the api key in my google app script. from that day my  usage overshot to insane amounts.Google started charging y card every 30 mins or so. Google support said they will help significantly waive this off but they havent been swift. any one else experienced anything similar?",Numeric,cold
+"Show HN: Worklicant – Lightweight ATS. Pay per Vacancy. AI Enabled
+
+I have noticed that a lot of job posts that do not use any ATS, and in order to apply, they put their emails and ask candidates to apply with “X” in email subject. That seemed to be very counter productive  — imagine having 300+ emails with resumes. Where do you manage them? In Excel? Or how many good candidates you never get to.
+
+I researched popular ATS systems and found out that they require yearly &#x2F; monthly subscriptions. A lot of them do not have a pricing on the website, so you gotta book a call to be quoted some yearly contract price…
+
+So I built Worklicant — lightweight ATS for tech hiring.
+
+Pay per vacancy. Post a job, share the link, easy application form (no registration needed for applicants). Easy in-app scheduling. Vacancy analytics. Custom hiring stages, tags, notes, application questions.
+
+AI extraction of resume summary, companies, experiences so you do not have to open each resume. You can also write a rejection prompt with ideal candidate description. That will be taken into account when AI (Jev) gives score to each applicant.
+
+I have worked on it for around 2 years on and off so most of the code was hand written (but that’s changing rapidly).
+
+Give it a try and let me know what you think!",Numeric,cold
+"Ask HN: As developers from low-income countries,how to cope with AI replacement?
+
+programming is fun and all of that is fine but how do I compete with a developer with a 200$&#x2F;500$ Claude subscription? I was fine with making pennies,now I can't even make that. 
+I was fine with competing against thousands of people who claimed competence, I could prove it by making stuff, but now I am just a dot in an ocean that people were wholeheartedly glad to discard and i have no way to get back on the saddle.
+
+is there something I'm missing that i should be doing?",Numeric,cold
+"Show HN: Agent Archive – Session Handoffs and Backups for Claude Code and Codex
+
+I often switch between Claude Code and Codex throughout the week, and between my laptop and an older machine I leave running at home. I built agent-archive to make it easier to pick up where I left off, especially when i hit usage limits.
+
+It lets you (or a coding agent) find past coding sessions and hand their conversation context to another agent. You can try local handoffs without setup, or connect your own S3&#x2F;R2 bucket for automatic archiving and access from other machines.
+
+It also tracks usage across agents and gives you a full archive of your session transcripts across agents, which I've found useful to iterating and improving my AGENTS.md and lint rules.",Numeric,cold
+"Show HN: A layer on top llama.cpp enabling big MoE streaming on phone and laptop
+
+Adaptive Streaming Optimizer: Run any Big MoE model on any device, any OS, any HW, local OpenAI-compatible server. Android, Windows, Mac, IOS, Linux. CPU, GPU, NPU (35B on phone 12gb RAM 10 tok&#x2F;s decode 100-300+ prefill, Windows, Mac even more: 25+ tok&#x2F;s 16 gb RAM)",Numeric,cold
+"Show HN: The Handsome Boy
+
+Photographs with atmospheric themes
+Films and videos, including those about bike tours and fitness training
+Grow Diaries, i.e., documented planting and cultivation projects
+A playlist of songs that go well with the pictures or that I listen to often.",Qualitative,cold
+"Google Meet Enshittification
+
+Google Meet Android app meeting join now claims to need Notification Permissions for incoming and outgoing calls.
+
+This claim is false. There's no such requirement. And if there were, it would be needless and wholly unreasonable.",Qualitative,cold
+"Ask HN: Why people keep posting AI-generated projects around the Internet?
+
+Programming-related subreddits and other media platforms are current flooded by the waterfall of AI-generated projects. A typical post contains a problem description and the link to GitHub repo created just recently with sustainable amount of generated code in it. With the invite to review it, and to give a community feedback.
+
+The quality of the projects vary, but very often these are codebases generated in a few days solely by the AI-agentic systems with little to no human review and prior history of development and recognition.
+
+I'm asking this question not out of critiques. I genuinely don't understand motivation and the roots of this phenomena.
+
+Asking for the professional code review seems to be pointless for the publisher. Many of them didn't have prior experience in the programming language in which the code has been generated. Furthermore, the code is seemingly not interested for the publisher either. It does not look to me as a good start for community-driven (F)OSS project anyway.
+
+Another motivation that I can imaging is seeking for public recognition. But considering the amount of postings, I think it's highly unlikely in the current situation even for the genuinely high-effort works.
+
+I can also assume that some are seeking for the self promotion by faking professional skills with AI assistance. That might be true for some, but the majority don't hide the fact that the presented code has been generated. It's unlikely the main motivation too.
+
+So, I completely lost in understanding on what's going on, and what steams this never-stopping process. At a first glance the author doesn't gain anything in return, and I don't understand what they are seeking for.",Qualitative,cold
+"Show HN: Risphai – picks the AI model, tools and prompt for each request
+
+I noticed that a lot of non-technical people don’t use AI to its full extent. Like they use the wrong model for the task, the wrong reasoning effort, or vague prompts. That gap between ""what the AI can do"" and ""what people actually get"" is what I wanted to fix.
+
+So I spent the last two years in my spare time building a consumer AI product that tries to fix this issue.
+
+This is how it works:
+When it receives the request, an LLM decides the task type (chat, reasoning, coding, writing) and the tool calls that are needed (web search, image generation, video generation, audio generation). Then it routes it to a suitable model and applies a prompt based on the task type. If it's a media generation task, it rewrites the prompt into a detailed one using prompt formulas (the prompt formulas for specific styles are mentioned in the system prompt). The LLM that is used for answering the request can also use a map, generate a mermaid diagram, generate a quiz or flashcards, generate files, etc.
+
+A limitation right now is that routing adds latency, but I'm currently experimenting with decision-models like Jev, PPLX Decider, etc. and might use decision-models to route to the right LLM and give the tool calls like web search and media generation to the answering LLM.
+
+It launched this week, so it's still early and I will keep improving it and adding new things.
+
+Also sign-up&#x2F;in is required to prevent abuse.
+
+I’d really like honest feedback: what’s confusing, what’s missing, etc.",Numeric,cold
+"Show HN: MyBox, Personal Digital Box
+
+MyBox is personal digital box, just for fun and productive.",Qualitative,cold
+"Show HN: Connecting Captions Local Private AI Interpreter
+
+Hi HN,
+
+I built Connecting Captions, a live captioning and translation overlay for macOS that runs entirely on-device. Nothing goes over the network: no API calls, no audio leaving your machine, and it keeps working offline.
+
+I wanted live translation I could use in meetings and conversations without worrying about connectivity, latency spikes, or sending sensitive audio to a third party.
+
+The technically interesting part is a low-latency, self-correcting pipeline for speech-to-text and translation. It has two modes:
+
+Sentence mode: buffers until a sentence boundary, then translates with full context. It’s more accurate, especially between languages with different word order.
+Streaming mode: translates word by word as speech arrives, trading grammatical accuracy for minimal delay.
+
+Current state:
+
+Platform: macOS
+Models: Whisper
+Latency: ~200 ms 
+Languages: 25
+
+Code: ""https:&#x2F;&#x2F;github.com&#x2F;chrisswimlee&#x2F;connectingCaptions"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;chrisswimlee&#x2F;connectingCaptions</a>
+
+I’d love feedback, especially on the self-correction approach and which use cases matter most to people.",Numeric,cold
+"Show HN: Fast, secure JSON Formatter with side-by-side JSON diffing
+
+I wanted a simple clean looking website for all my JSON related work that is why I built this site . Here I built a side-by-side diffing which you should try!! Well I would like you to test the site and give me some feedback on how it is!!",Qualitative,cold
+"Show HN: Guidedog an OSS static site generator for rst and md
+
+Wanted to have a static site generator which is:
+
+- fast
+
+- supports RestructuredText
+
+- supports markdown
+
+Its a single binary which can work like sphinx-doc or hugo static site generator.
+
+Project: ""https:&#x2F;&#x2F;github.com&#x2F;insanai&#x2F;guidedog"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;insanai&#x2F;guidedog</a>
+
+Documentation: ""https:&#x2F;&#x2F;insanai.github.io&#x2F;guidedog&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;insanai.github.io&#x2F;guidedog&#x2F;</a>
+
+guidedog specification, website and documentation is written and managed with guidedog itself. It also supports another of my project sibuna.",Numeric,cold
+"A Princeton PhD applied to 2,300 jobs and still can't get one
+
+""https:&#x2F;&#x2F;www.wsj.com&#x2F;lifestyle&#x2F;careers&#x2F;labor-market-freeze-phd-graduate-f8e17d7c?st=YzFQN4&amp;reflink=desktopwebshare_permalink"" rel=""nofollow"">https:&#x2F;&#x2F;www.wsj.com&#x2F;lifestyle&#x2F;careers&#x2F;labor-market-freeze-ph...</a>",Numeric,cold
+"Show HN: Parents Inbox – Communication Guide for Schools
+
+At a dinner party with other parents recently, the conversation turned to the challenges we all have with communication coming from our children's schools. Emails and Texts and App notifications, coming from Teachers, Admins, PTA, After-Care programs. Overlapping information, buried key details, verbose fluff. An avalanche of text every day that must be carefully parsed to find important info.
+
+This seems to be a universal problem and certainly one I experience every day. So literally before dinner was over I built the first version of this site on my phone with Claude.
+
+I think the main problem is that the folks who are responsible for communication just don't have the tools and experience to know what good communication really looks like, or the parents perspective hasn't been demonstrated to them to give them more empathy. So I am hoping this can help. Feel free to share if you have the same problem with your school.",Qualitative,cold
+"Show HN: Pbschema-lens – static doc generator for protobuf
+
+A static HTML site generator for protobuf schemas.
+The generator is a single Go binary.
+
+Features include support for protobuf editions, rendering for options with special rendring for popular options, markdown in comments, symbol &amp; full-text search, source view, etc.",Qualitative,cold
+"Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping
+
+FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works.",Qualitative,cold
+"Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5
+
+Lately I've been testing frontier models by having them create self-contained web pages that display clocks--sort of my personal version of Simon Willison’s pelican-on-a-bicycle metric.
+
+I have been particularly impressed by the variety, interest, and quality of the clocks created by Claude Opus 5.5. Over the course of several sessions in the Claude chat interface, I had it build a total of 500 clocks.
+
+Claude’s summary of the prompting process and page design is here:
+
+""https:&#x2F;&#x2F;github.com&#x2F;tkgally&#x2F;500-clocks&#x2F;tree&#x2F;main"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;tkgally&#x2F;500-clocks&#x2F;tree&#x2F;main</a>",Numeric,cold
+"Ask HN: How can we stop UX people from changing UIs to get promotions?
+
+Every product seems to go through constant UI churn that has no benefit to users other than changing around whitespace or refreshing the look.
+
+If you have a full time UX person they _must_ change the UI of your product otherwise there is no way to get promoted.
+
+That is just an unavoidable fact of incentive structures.
+
+As a company how can you avoid that issue?",Qualitative,cold
+"Google Fonts as a Protest Piece?
+
+I just noticed that all of the Google Fonts example text now reflects the Universal Declaration of Human Rights.
+
+This cannot be coincidence, given the context of the last 2 years.
+
+For example, see https:&#x2F;&#x2F;fonts.google.com&#x2F;specimen&#x2F;Roboto
+
+""No one shall be subjected to arbitrary arrest, detention or exile.
+Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
+No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.""",Numeric,pre-labeled (script)
+"Show HN: Cosplay as a tech lead, using gVisor to sandbox agents
+
+Hi everyone,
+
+This started as an exploration into harnesses and locally hostable LLMs (the kind that uses less power than a small electric heater), and I used it as an opportunity to retool. I've tried popular ones like Cline, Claude Code, and Pi, but wanted a different UX and integrated sandboxes.
+
+The solution that I've landed on is a responsive web interface where I can quickly drive progress. It feels like a microcosm of my day job: define and delegate tasks, organize using kanban, then review deliverables. And it also feels like the time I used to spend coding is now spent in code review with the agent, so I tried to optimize the UX to make review feel nicer.
+
+One of my (maybe a bit niche) benchmark use-cases is how pleasant it is to make progress on hobby software projects while also out on a hike. This meant specifying low bandwidth usage and offline mode.
+
+Now I can jot down an idea, start the task, and at some point down the trail: get a notification* that either clarification is needed, a decision needs to be made, or the code is ready for review. I've been having a good time with this.
+
+To build MIKE, I exclusively used locally hostable LLMs (from Google, Meta, Qwen, Poolside, and DeepSeek) hosted with llama.cpp on my machines at home (Strix Halo and a 5090) to ""compile"" the code. The experience has gotten substantially better ever since DeepSeek’s release in July. Side note: I have a soft spot for llama.cpp since it was one of the first that made it possible to run this new tech at home, and its maintainers accepted a tiny improvement I made to error reporting. Oh the joys of having a PR get approved.
+
+I plan on maintaining this, at least until similar features are supported by better tools. Until then, hope you find this useful!
+
+5 minute demo: ""https:&#x2F;&#x2F;youtu.be&#x2F;jexzLkZ50FU"" rel=""nofollow"">https:&#x2F;&#x2F;youtu.be&#x2F;jexzLkZ50FU</a>
+
+p.s.
+
+I didn't mention details about the sandbox earlier since most people seem to find this a bit boring. It was one of my critical requirements, and I opted to use an existing battle-tested sandbox. I'm not an expert on how the Linux kernel works, but seeing all the VM escape exploits recently is a bit scary, and I liked gVisor’s approach to the problem.
+
+I'm also using Git worktrees to provision the agent’s workspace, as well as a read-only repository mount to provide relevant context when the agent looks for it.
+
+*off by default",Numeric,pre-labeled (script)
+"Show HN: Serve Nix closures to k8s pods
+
+I’ve been working on a Nix CSI for kubernetes since NixCon when I realized that everyone seems to working towards killing OCI layers (and images) in Kubernetes deployments.
+
+I’m hoping to get people to give it a spin and report back to me bugs, feature requests or general feedback. I don’t have a lot of data on how this scales and that makes it hard to decide whether to justify adding a feature or not (e.g. cache locality scheduling).
+
+An LLM was used in the development of this project.",Numeric,pre-labeled (script)
+"RuneScape Bench: MMOs for Agents [video]
+
+Related: ""https:&#x2F;&#x2F;github.com&#x2F;LostCityRS&#x2F;Server"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;LostCityRS&#x2F;Server</a>",Numeric,pre-labeled (script)
+"Ask HN: How do you deal with AI output of your boss?
+
+So, my boss goes on a rampage. You can clearly see the joy and at the same time the rage and impatience. AI is the tool he always wanted. We are too slow. Process is out of the window. No need for sprints anymore. No planning, just doing. All people downstream must somehow adapt.
+
+Whenever i see now his automated messages in slack, my natural reaction is: why do i even bother reading that? Thats for machines to read. He does not need me? Clearly i am not made for that. What is he expecting me to do? To confirm how great the AI did the job? Should i remember all these perfect presentations AI has created and integrate it into my doings into the coming weeks?
+
+I am torn. Should i really free my AI and deal with all this incoming text? Is this the way to react on this perfection?
+
+I am not mad at him, it clearly frees him of all the burder of dealing with people.
+
+I just dont know how to deal with this output personally. It is not for humans.
+
+I feel left alone. This is not a company anymore. Everyone is talking to AI now. This feels like chaos. Where everyone can do everything and stepping into each other's domain and it is perfect. The only way AI is stopped at are the ACLs.
+
+And because AI does everything for me, i don't remember things anymore, as i have no emotion connected with it. Feels like bad schooling and memoizing and get through it and you can't as it so dry and lifeless.
+
+So, how people deal with it in a company context? How have they setup their machines to react and still be up to date without reading the constant stream of changes coming from others?",Qualitative,pre-labeled (script)
+"Poll: Stanford students preferred 22% less salary for annual equity liquidity
+
+I’m one of the founders of Street. We ran a poll with 500+ people in our Stanford network about how they’d choose between two startup offers.
+Both had the same role, vesting and $1m equity grant. One paid $180k, with the equity locked until an IPO or acquisition. The other paid $140k, but allowed them to sell up to 5% of their shares each year.
+More than half picked the $140k offer.
+We work on shareholder liquidity at private companies, which is why we wanted to look into this. These were hypothetical offers, but I thought the result was worth sharing here. Happy to answer questions about the poll.",Numeric,pre-labeled (script)
+"For those using huge amount of tokens monthly for dev work, why do you need it?
+
+I can't even use 1b a month because I review everything LLMs write.
+
+I even used AI to code my own harness in C and my own VSCode like IDE in C++ (I hated how slow it felt) and I still used under 1b the months where it did most of the coding.
+
+Just wondering how&#x2F;what these guys claiming to use a full Claude&#x2F;Codex 20x subscription are burning it on.
+
+Edit: Also, I never use subagents.",Numeric,pre-labeled (script)
+"Show HN: Ayafy: A free app to memorise and revise the Quran
+
+I built Ayafy, a free Quran learning app on iOS and Android. It lets you manage memorisation, automatically prepares revision tests as you study, measure progress, establish goals and review your recitation with AI-powered word-by-word feedback. It has also a quran reader, voice search and much more.
+
+I would love to hear your open feedback &amp; ideas for improvements!
+
+Website: ""https:&#x2F;&#x2F;ayafy.com"" rel=""nofollow"">https:&#x2F;&#x2F;ayafy.com</a>
+iOS: ""https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;ayafy&#x2F;id1549129832"">https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;ayafy&#x2F;id1549129832</a>
+Android: ""https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.ayafy.app"">https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.ayafy.app</a>",Numeric,pre-labeled (script)
+"Ask HN: What Got You into Rust?
+
+Back in 2024 I was experimenting with prosthetic arms and trying to figure out how to build one with an EMG sensor. The problem I kept running into was that the EMG sensor kept crashing the Arduino IDE. It spat out data at an extremely high rate, and my RAM couldn't keep up with it, being on a potato laptop.
+
+That's when I thought, ""Okay, maybe let's try Rust. What's the worst that can happen?"" This is the first thing I ever built in Rust: https:&#x2F;&#x2F;github.com&#x2F;CLoaKY233&#x2F;serial-plotter
+
+I used a sliding window: keep deleting the oldest values and keep pushing the newer ones onto the graph. It looked a bit like a snake chasing its tail, but it's what actually worked for us later at the Smart India Hackathon 2024 Hardware finals (we didn't win).
+
+Sharing something from back when trying something new and building something new felt exciting. Maybe we'll never get to build things quite the same way again :D So I'd love to hear what got you into Rust, what your first Rust project looked like, and what you've cooked since :&gt;",Numeric,pre-labeled (script)
+"Porting video games to VHS
+
+""https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=vcgEQVsysYM"" rel=""nofollow"">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=vcgEQVsysYM</a>",Numeric,pre-labeled (script)
+"Ianal?
+
+looks like we've been kidding ourselves all these years prefixing our advice with ""IANAL"". Maybe let's switch to IANAA from now on.",Qualitative,pre-labeled (script)
+"Real knowledge dont matter any more
+
+My X news feed are all about AI modules names , with tweets like Opus ! wow Sonnet OMG! and in the end either no body tried them or they have 1M $ sub . miss the days it was about code tricks and real knowledge in SE and DB or system designs .things are changing",Numeric,pre-labeled (script)
+"I need an opinion on my app
+
+Hi everyone! I am currently in the process of building Monetario AI (getmonetario.com), an app that shows how some macroeconomic events impact your personalized portfolio and your holdings.
+
+Story for context: I'm a university student who participated in a Trading Tournament held at my university, and I didn't have enough time or background knowledge to keep up with market news consistently. Except for the market news, I didn't really understand how those market changes would impact my portfolio, so I've got an idea what if there were an app that would help you with that
+
+The whole goal of this app is to have all the data locally on app with simplified explanation and so you can make better informed decision.
+
+I would also like to state that Monetario AI doesn't give investment advice, as it's currently just more of an educational finance app.
+
+Feel free to ask any questions about the app you may have, and I would really like it if you would check my app (or sign up on the app) and give constructive feedback.",Qualitative,pre-labeled (script)
+"Show HN: Task629 - Personal development tracking through task descriptions
+
+I built Task629 to make the tracking of my personal development less time consuming. Instead of spending time thinking about how the tasks which I have completed fit into certain skills I am trying to develop, I pass this to a locally hosted AI.
+
+As well as tracking individual skills which are demonstrated by tasks, there is functionality to work towards goals and to produce a report. This addition makes interview prep much simpler.",Numeric,pre-labeled (script)
+"Show HN: InBox Wall – A local-first, open-source email sanitizer for AI agents
+
+An open-source, local-first MCP server designed to sanitize email HTML and protect local AI agents from hidden CSS&#x2F;Unicode prompt injections before the LLM processes the data.",Numeric,pre-labeled (script)
+"Show HN: Halal Crypto Index – AAOIFI Shariah compliance screener for 800 coins
+
+Hi HN,
+
+We built Halal Crypto Index (""https:&#x2F;&#x2F;halalcryptoindex.com"" rel=""nofollow"">https:&#x2F;&#x2F;halalcryptoindex.com</a>) to provide transparent, open-methodology Shariah screening for 820+ crypto assets based on AAOIFI financial ratios (debt&#x2F;market cap, interest revenue, utility vs speculation).
+
+Ecosystem:
+• Live Web App: ""https:&#x2F;&#x2F;halalcryptoindex.com"" rel=""nofollow"">https:&#x2F;&#x2F;halalcryptoindex.com</a>
+• Telegram Mini App: ""https:&#x2F;&#x2F;t.me&#x2F;Halal_Crypto_App_Bot&#x2F;app"" rel=""nofollow"">https:&#x2F;&#x2F;t.me&#x2F;Halal_Crypto_App_Bot&#x2F;app</a>
+• MCP AI Server: ""https:&#x2F;&#x2F;smithery.ai&#x2F;servers&#x2F;tffsgsff&#x2F;halal-crypto"" rel=""nofollow"">https:&#x2F;&#x2F;smithery.ai&#x2F;servers&#x2F;tffsgsff&#x2F;halal-crypto</a>
+• CERN Zenodo DOI: 10.5281&#x2F;zenodo.23021995
+
+Feedback on the data methodology is very welcome!",Numeric,pre-labeled (script)
+"Show HN: ThemesFor.app – a static website builder that doesn't hide the HTML
+
+I originally built ThemesFor.app in 2018 while running a small web development agency.
+
+One thing that kept bothering me with website builders was that they increasingly tried to hide the technical parts of building a website. That's useful for many people, but I wanted almost the opposite — a visual tool for people who are already comfortable with HTML and CSS.
+
+ThemesFor.app is my attempt at that.
+
+You can build static websites from blocks, edit them visually, and export the HTML. I'm now working on taking the idea much further, but before I do, I wanted to put the current version in front of developers and see what they find useful—and what they don't.
+
+It's still rough in places, so feedback is very welcome:
+
+""https:&#x2F;&#x2F;themesfor.app"" rel=""nofollow"">https:&#x2F;&#x2F;themesfor.app</a>",Numeric,pre-labeled (script)
+"Show HN: Battle Isle 2 via spec
+
+Ongoing reimplementation of Battle Isle 2, done via first defining the spec of the rules and files.",Numeric,pre-labeled (script)
+"Pareto frontier lines for AI are great but where are the Pareto planes?
+
+Pareto frontier lines are used a lot for comparing tradeoffs between two different attributes in AI models.
+I want to be able to see the Pareto frontier planes for 3 attributes (which probably look closer to a bumpy dome, similar to how pareto lines are actually more like bumpy curves).
+And although you wouldn't be able to visualize a pareto cube&#x2F;tesseract for 4+ attributes, it might still be useful in some way.",Numeric,pre-labeled (script)
+"Why the Creators of AI Do Not Understand Their Own Creations
+
+Just citations.
+
+Dario Amodei (CEO of Anthropic, 2025): <i>""People outside the field are often surprised and alarmed to learn that we do not understand how our own AI creations work. This lack of understanding is essentially unprecedented in the history of technology.""</i>
+
+MIT Technology Review: <i>""Despite all the stunning success, nobody really knows how — or why — it works.""</i>
+
+Yoshua Bengio (Turing Award laureate, 2024): <i>""If we continue as before, we are driving against the wall. Or at least we are driving into a fog, without knowing whether there is a wall.""</i>
+
+Mathematician Roman Vershynin (UC Irvine), in a recent interview — <i>""We advanced to the wall and hit it.""</i>
+
+So why did AI research hit the wall?
+
+The answer is not hard to find, and most people in the field know it, even if they prefer not to say it loudly. The point is that all training data used by AI is secondary, while the primary source is the human being. Every text, every image, every pattern a neural network absorbs — all of it was created by humans. A neural network does not discover the laws of the world; it only finds regularities in what has already been created by human intelligence.
+
+So if we want to understand how AI forms knowledge, we must first understand how humans form knowledge. But this pretty obvious idea was never materialized because of the historical failure of all attempts to build a working, mathematically correct model of knowledge. The story started in the 19th century and continued until the end of the 20th. Tens of theories of information, hundreds of books, thousands of articles in dozens of journals — and nothing practically working came out of it.
+
+This however does not mean no adequate theory exists. It is there since the late 2000s, but it is still completely unknown to the scientific community. This occurs for a purely ideological reason because this theory builds its formalizations on concepts borrowed from mainstream programming languages and so completely ignores mathematics.
+
+For the major journals devoted to AI and information theory that is a taboo. I spent years trying to publish it. The answer was always the same: <i>""Add the mathematical justification, and then we will take a look.""</i> When I contacted established researchers directly, the answer was either silence or: <i>""Yes, you have an original idea, but we are not interested.""</i>
+
+I stopped trying fifteen years ago. My hope is that now the theory might have a chance, because it addresses exactly the problems that the current conceptual apparatus cannot solve.
+
+The Theory of Meaningful Information (TMI) expands the conceptual framework of the most expressive programming language, which is C++, by adding capabilities for creating standard narrative (non-executable) texts that constitute the primary form of any human language.
+
+In TMI, information is defined as the value of a variable used in some algorithm. This works for a bit in a computer, a state of a neuron, a pressed button, a written letter. It applies to a bacterium, a program, a neural network, and a human.
+
+The theory introduces Information Capable Entities (ICE) and traces their evolution from the simplest biological ICE — a cell — to complex technical devices and the human being, who is modeled as an object controlled by a biocomputer (the brain).
+
+It offers a complete algorithm of human knowledge formation, from the simplest perceptions to the most complex concepts. It contains the theory of intelligence, covering both natural and artificial intelligence, and the theory of a universal representation language.
+
+A short description of TMI and a link to the complete work:
+
+https:&#x2F;&#x2F;doi.org&#x2F;10.5281&#x2F;zenodo.23403895
+
+Boris Sunik,
+independent researcher",Numeric,pre-labeled (script)
+"Why do computers/phones have a restart option along with the power off option?
+
+Couldn't users just turn off their computers(via the shutdown option) and use the physical button to turn it on again ? Why did they added an extra button ? It's not saving too much time or anything.",Qualitative,pre-labeled (script)
+"Ask HN: Non-deterministic leet code small LLM challenge site?
+
+I was thinking about how Advent Of Code and how coding has changed. I think it could be fun to participate in a challenge oriented website where the solution had to be 'programmed' using a prompt using a local small LLM. The server would then check the correctness of the solution and somehow verify that the solution was generated with the small LLM.
+
+I think it could be a good way to also teach and explore prompting styles with a specific objective in mind.
+
+Does anything like this exist or does it sound interesting for someone to build?
+
+There are some hurdles to overcome:
+
+- what LLM would everyone use that is small enough to run on a webgpu (for example)
+
+- how would the server verify the code was generated by the LLM and not tampered with (if that's even possible)",Qualitative,pre-labeled (script)
+"Show HN: GitGud – a free, open-source Git GUI with undo for any action
+
+Hi HN, I built GitGud out of frustration: no open-source Git GUI felt as nice as GitKraken. Bonus points if you get where the name comes from.
+
+Highlights: undo for any git action (even rebases), drag a branch onto another to merge or rebase, interactive rebase and line-level staging.
+
+It's open source, and feedback is really welcome!",Qualitative,pre-labeled (script)
+"Show HN: I built an AI cycling coach
+
+My friends and I have been toying with the idea of personalized (cycling indoor) training using AI to assist with planning and tailoring workouts around a busy schedule and ambitious goals, so I decided to build an experiment to see how it would work.
+
+Cycling is a sport that's very hard on the body  and many cyclists burn out or get frustrated when trying to improve, so my hypothesis is that with proper analysis of training data, there's a lot of potential to build a good product.",Qualitative,pre-labeled (script)
+"Show HN: UAC-Less Sudo for Windows
+
+I started this project around 8 years ago out of frustration with the lack of a proper sudo command for Windows, and then abandoned it for a while. I was excited to see Microsoft create an official one, but it seems to be abandoned, so I picked this project back up. Once installed, this will never show a UAC prompt, which is different from every other sudo for Windows I've seen.
+
+I understand there are arguments that this raises security concerns, however, if that's the case, then so does the Linux&#x2F;Unix sudo, and people use that business all the time.
+
+I'm mainly working on this just because I'm a major terminal nerd and I want this to exist for my own use. Hope someone else finds it useful as well.",Numeric,pre-labeled (script)
+"Show HN: Theseus the Mouse by Claude S. (and Claude O.)
+
+Ruuning sim is here: ""https:&#x2F;&#x2F;rupello.github.io&#x2F;theseus&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;rupello.github.io&#x2F;theseus&#x2F;</a>
+
+For the full experience click on the 'Relay clicks' checkbox on the right side below the maze
+
+The simulation was entirely built by Claude (Opus 5) &amp; may not be historically accurate as I couldn't find any documentation of the wiring.
+
+I prompted Claude to build a simulation using three.js, then added the relay visualization &amp; then the ladder logic. Finally, I asked Claude to refactor the code &amp; add descriptive documentation for readability.",Numeric,pre-labeled (script)
+"Ask HN: How do I stop Gemini Live from asking.""Would like to know more about..?""
+
+In other words, how do I setup a AGENTS.md or behavior rules for Gemini Live?",Qualitative,pre-labeled (script)
+"Ask HN: Why people do not want to believe weight loss is possible without GLPs?
+
+My last post got flagged when I claimed we provide guaranteed weight loss or gain results within 2–3 weeks without GLPs, i posted ""Show HN"" after we made significant updates to our system
+
+Why are so many people on Hacker News hellbent on boosting GLPs as a cure for all weight loss?
+
+We've got 17,000+ users, all the reviews and testimony, and yet we are not able to post our app on Show HN?
+
+We submitted our app to Show HN, but users are flagging it?
+
+https:&#x2F;&#x2F;macrocodex.app&#x2F;",Numeric,pre-labeled (script)
+"Show HN: Esp32sim – Run ESP32 firmware in the browser
+
+Hi HN,
+
+I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser.
+
+The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator.
+
+The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected.
+
+Source:
+""https:&#x2F;&#x2F;github.com&#x2F;mikroverk&#x2F;esp32sim"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;mikroverk&#x2F;esp32sim</a>
+
+I made a short video showing it in action:
+""https:&#x2F;&#x2F;youtu.be&#x2F;waoWFilTWEc"" rel=""nofollow"">https:&#x2F;&#x2F;youtu.be&#x2F;waoWFilTWEc</a>
+
+I’m particularly interested in feedback from embedded developers: what would an emulator like this need to support before you’d actually use it for development, testing or CI?",Numeric,pre-labeled (script)
+"Ask HN: It's still worth to show own handmaded games to the public internet?
+
+In the past, we made games for fun and showed them off here and there. Some people were amazed, others didn't care. So far, so good, completely normal.
+But what are people supposed to do today with such fun stuff when they get banned and bashed with the blind accusation that everything is just ""AI slop""?
+I see it as a cutoff for individual content on the net. ""Only mainstream allowed!"" leads to handing over internet content to these actors, who define and control the content for their own benefit.",Qualitative,pre-labeled (script)
+"Talk like Paul Dirac – fewer words is better
+
+This is the entire contents of my home dir AGENTS.md file now.
+
+Does it help reduce the slop you have to read for you the same way it feels like it does it for me?",Qualitative,pre-labeled (script)
+"Ask HN: How much are developers trusting LLMs to write prod code?
+
+I've been out of the dev role for a few years. I'd appreciate if you could help me better understand what its actually like out there. How much are you trusting LLMs for writing production code:
+
+1. Chat-esque LLM assistance while mostly hand writing code
+
+2. LLM writes the code and you review line by line
+
+3. Review mainly the high level design and tests, scanning the lower level implementation for stuff that jumps out
+
+4. Relying on LLM generated reviews and inspecting what it highlights
+
+5. Relying on agentic code&#x2F;PR&#x2F;fix loops
+
+How long ago did you hit that level of trust, was it tied to a model release?
+
+Are expectations, team norms etc forcing you to use LLMs beyond your trust in it?
+
+Have the industry changes brought more excitement about or apathy towards your work?",Numeric,pre-labeled (script)
+"Show HN: Animated step-by-step hints for any cryptic crossword clue
+
+Cryptic crosswords are fun AND hard, and I've recently been introducing easier ones to my 11y&#x2F;o daughter. It made me realise that when you're stuck, all you can do is hope you somehow come up with the way to crack it, or look at the answer and have all the satisfaction of figuring it out yourself removed!
+
+I also realised that when I was explaining to her how clues worked, I would scribble all manner of letters, arrows doodles to make sense of how the words of the clue could be mangled and eventually produce the answer.
+
+So I made a thing that would replicate the pencil and paper solving process, and create stepped visual animations that would enable you to get just enough info to make solving it within your reach, so you could feel like you did enough of the working out to get that ""Aha!"" feeling, without just getting straight to the answer.
+
+You can paste in any cryptic clue with its length, e.g. ""Around Los Angeles, coatless dudes make AI model, say (6)"", and the animation shows you how to solve it, one step at a time. It's split into 3 or 4 sections, which most cryptic clues fit into:
+
+1. Which end of the clue is the definition
+2. What type of clue is it (there are several conventions in the cryptic world, a clue can be 1 of these, or a combination of several)
+3. What are the pieces used to build the answer
+4. How do the pieces fit together to create the answer
+
+You can stop as soon as you have enough info to get you back to solving it yourself.
+
+It was easy to get a smart AI to solve the clue - but it was trickier to get it to be reliable and correct. LLMs can be very good at writing a confident, plausible breakdown for a completely wrong answer! So I needed to use a multi-pass approach:
+
+1. A small, fast model checks that the input looks like a cryptic clue.
+2. A more capable model solves it and writes a step-by-step breakdown.
+3. Another independent model solves it ""blind"", without seeing the first attempt or its answer.
+4. A ""judge"" then checks that the two solvers agree on the answer and method, and that the letters in the breakdown actually add up to the answer.
+
+If that fails, it tells you it’s unsure instead of bluffing, and if it’s only fairly sure that the answer and ""how to"" is the correct one, it says so.
+
+The breakdown of how the clue is solved is then drawn as an animation, step by step, with letters and meanings scribbled and manipulated the way you'd do if you solving it yourself on paper.
+
+Depending on the complexity, a clue usually takes between about 10 to 30 seconds to be solved. There's a cache, so clues that have already been solved once can be returned without going through the AI process again. It can still get things wrong, especially on loose clues or ones with some flexibility in how they can be interpreted, but generally it performs pretty well.
+
+Your first clue solve is free, and an account gets you two more. There are paid plans to cover the AI costs involved for multiple solves as there is a cost to it.
+
+There's also some good resources for learning cryptic crosswords basics - and a library of clues with hints to practice with. You can also write and share your own cryptic clues - along with the hint animation generated for them ""https:&#x2F;&#x2F;crypticinkling.co.uk&#x2F;create"" rel=""nofollow"">https:&#x2F;&#x2F;crypticinkling.co.uk&#x2F;create</a>
+
+I’d love feedback from any cryptic crossword ninjas or beginners alike.
+
+PS here's the breakdown for the clue at the top of this post: ""Around Los Angeles, coatless dudes make AI model, say (6)"" - how many hints do you need to crack it? ""https:&#x2F;&#x2F;crypticinkling.co.uk&#x2F;clues&#x2F;1hi0s2x"" rel=""nofollow"">https:&#x2F;&#x2F;crypticinkling.co.uk&#x2F;clues&#x2F;1hi0s2x</a>",Numeric,pre-labeled (script)
+"Show HN: Pitch your tent for perfect shade
+
+I recently moved to Australia and have been on a bit of a Roadtrip recently.
+
+Getting shade in the middle of the day is the only way to survive without becoming a lobster.
+
+So I made this, take a photo of your setup and project the shade across the day to make sure your awning is at the perfect angle.",Qualitative,pre-labeled (script)
+"Show HN: Set Span Status for Error Logs
+
+I created a pypi library that sets span status to error when you log an error with ability to set ignore rules for specific loggers, templates or messages.",Qualitative,pre-labeled (script)
+"The Elizabeth Holmes Documentary, via the Eyes of the Reporter Who Exposed Her
+
+""https:&#x2F;&#x2F;archive.is&#x2F;aKGff"" rel=""nofollow"">https:&#x2F;&#x2F;archive.is&#x2F;aKGff</a>",Numeric,pre-labeled (script)
+"Show HN: GmailClass – Chrome extension that labels Gmail emails
+
+This has most likely been done before but it's a chrome extension that classifies your emails, powered by Jev. Just provide your Typesafe API key and it works. There are some default labels but you can create your own easily in the chrome extension settings. Enjoy!",Qualitative,pre-labeled (script)
+"At what point is software considered ""vibe-coded""?
+
+We all use AI at some point when building software, but I don’t understand where the line is between AI-assisted development and vibe coding. What makes a project “vibe-coded”?",Qualitative,pre-labeled (script)
+"Softmap – readable flow map for Golang projects
+
+I’m working as a developer in a fin-tech company and most of the time I work with system analysts. The most of the time is being taking by the research of the code in order to answer for the questions of the system analytics. So I decided to make a tool that scans a project and shows what the api does under the hood: http validations, db calls - what kind of sql is being executed, kafka events and what happens when the function call is not succeeded - everything in ui map with detailed information. It also filters the noise so the user sees only business logic in the map. For now it works only for golang. Only static analysis - no LLM needed. softmap works only locally - scanned project data is not collected or shared with nobody.
+
+Here is the link: https:&#x2F;&#x2F;github.com&#x2F;softmapio&#x2F;softmap",Numeric,pre-labeled (script)
+"Looking for a Remote Engineering Role
+
+Product Engineer. Former Team Lead at Community Phone (3 years). 15+ years in software development.
+
+Full-stack TypeScript (React, React Native, Node.js), Swift (native iOS apps), chatbots, automation.
+
+Currently looking for a remote engineering role.
+
+Resume: https:&#x2F;&#x2F;drive.proton.me&#x2F;urls&#x2F;SY0VQ2GZ9W#IJ2BUfTzGPZv
+
+GitHub: https:&#x2F;&#x2F;github.com&#x2F;simplisticated
+
+Email: simplisticated.software@gmail.com
+
+Telegram: https:&#x2F;&#x2F;t.me&#x2F;simplisticated",Numeric,pre-labeled (script)
+"Show HN: Gridmark – make logos by tweaking shapes on a grid
+
+I built this (with claude) as i needed a logo for a project im working on but really did not want to use AI to make the logo. It all runs in browser and you can make logos and save them and download png and svgs without watermarks or anything.
+
+At the end of the day it's just an SVG manipulator with some sensible bounds for making some pretty cool looking designs.
+
+I did add a paid feature to download the whole brand kit but not really looking to make any money out of it. Would love feedback or any ideas on things to add for different grid types &#x2F; styles.",Numeric,pre-labeled (script)
+"Survey: How do you create the video demo for your project or product?
+
+Quick survey and share my pains in the meantime:
+- The audience has limited attention bandwidth, to present the product well in a short period of time is challenging.
+- To record a product demo requires to move the mouse quickly and often have to switch among various web pages or apps frequently, which is a real challenge with the time limit
+- Follow the script to operate the product while recording can include many backs and forth
+- It's difficult to explain well while operating the product with time limit
+- Putting together the recordings and BGM is another barrier",Qualitative,pre-labeled (script)
+"Ask HN: What was your favourite thread in the last two weeks?
+
+Somewhat navel-gazing but also a way to source up interesting comments (and thereby threads) rather than articles or post as a whole.",Qualitative,pre-labeled (script)
+"Show HN: WGSL linter with Tint parity and a full suite of LSP niceties
+
+Made a WGSL linter for a VS Code extension with validation matching Chrome's Tint compiler. Plus navigation, rename, layout hints and other LSP niceties; in template strings too. Feedback is very welcome!",Qualitative,pre-labeled (script)
+"Ask HN: Local AI product situation
+
+Right now it seems every company wants you to buy their fancy new expensive computer to run local AI models. Why would we want to buy a whole new computer to run local AI models? Why not create a device which has its own memory and chip designed specifically to run models and it plugs into your existing computer thunderbolt port (or event USB 3.2 as loading the model is one time process).",Numeric,pre-labeled (script)
+"Show HN: I turned my kids' old Yoto Player into an Audiobookshelf player
+
+My kids love their Yotos and I love Audiobookshelf. I wanted something in between that works as they get older and more control. I had two old Gen 2 players lying around that Yoto no longer supports.
+
+It turns the player into an Audiobookshelf client. You browse your library with the two knobs, the 16x16 screen shows tiny cover art, and favourites and downloads sync back to the server. Its still keeps the NFC card concept, but they're optional: you can link books&#x2F;favourites to any NFC card. It all runs locally, with no Yoto account or cloud.
+
+It does require opening the player and soldering some wires to flash the initial firmware, but then its OTA after that.
+
+Disclaimer: Its all Claude Code, Its an idea I've been slowly tinkering around in my spare time and never got very far so. I threw Claude Code at it and I was amazed at how well it did. Flashing, reading logs and fixing things - leaving me to just perform physical button presses and checks.",Numeric,pre-labeled (script)
+"DeepSeek-v4.1-Flash-1017
+
+""https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a>
+
+""https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017"" rel=""nofollow"">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",Numeric,pre-labeled (script)
+"Show HN: Sys2txt – transcribe system audio to text in the CLI with a local LLM
+
+sys2txt is a command line tool that records whatever audio your Linux machine is playing (via PulseAudio&#x2F;PipeWire's monitor source) and transcribes it live with Whisper, OpenAI's AI-based speech-to-text model.
+
+I use it to caption meetings, videos, and calls playing on my own machine without routing audio through anything else. It supports faster-whisper, openai-whisper, and whisper.cpp (with Vulkan GPU support for AMD), and can either record-then-transcribe once or stream continuously in segments with live output in txt&#x2F;srt&#x2F;vtt&#x2F;json&#x2F;tsv.
+
+I'd be keen to collaborate with others extend its functionality to other operating systems and hardware.
+
+(I have been using and developing this tool since November 2025.)",Numeric,pre-labeled (script)
+"Show HN: Biblio Times, your RSS feeds, typeset as a morning newspaper (Mac/iOS)
+
+the concept is not new but seem like people miss this newspaper in someway.
+
+The news is fetched on your own device, and nothing passes through your servers. That’s also why a traffic spike can’t take it down.
+
+The halftone photographs, the fold on iPhone and Duo, and the page curl.
+
+We are submitting a new update with OPML import. and will continue support the development.",Qualitative,pre-labeled (script)
+"Show HN: I got tired of btop not seeing my Mac's chip, so I built siltop
+
+btop is beautiful. But on my M-series Mac it can't tell me the one thing I actually want to know: what is the chip doing? No watts, no GPU, no per-core clocks.
+
+So I built siltop: btop's calm, with eyes on the silicon. Real power, clocks and temps straight from the SMC and IOReport, no sudo, about 1.3% of one core (btop is ~2.5% on the same machine).
+
+It also tells you what's wrong in plain words (""Busy: rustc using 9.1 cores"", ""Hot: fans at 80%"") before you read a single graph.
+
+10-second try, no load needed:
+
+<pre><code>  brew install cloaky233&#x2F;tap&#x2F;siltop &amp;&amp; siltop --demo
+</code></pre>
+Rust, MIT&#x2F;Apache, no telemetry, no network unless you turn on update checks.
+
+Curious what your Mac shows. M1&#x2F;M2 Ultra and M5 Max owners especially, I haven't seen yours yet.",Numeric,pre-labeled (script)
+"Show HN: Calcy – unit-aware, uncertainty-propagating math
+
+Offline-first notepad calculator: unit-aware math, uncertainty propagation, and rate reasoning.",Qualitative,pre-labeled (script)
+"Show HN: I built a free collection of browser-based 3D tools
+
+I built 3DValley, a collection of free tools for generating and editing 3D models.
+
+You can turn images into 3D models using AI, retexture existing models, remesh geometry, and use other 3D utilities.
+
+Some tools run entirely in your browser, while the more computationally expensive AI models run on shared GPUs with free daily credits.",Numeric,pre-labeled (script)
+"Ask HN: What is the most useful thing AI has done for you?
+
+I had a deep conversation with a friend about what is the most useful thing AI has created&#x2F;done for either of us.
+
+For my private life, AI helped me to diagnose and root caused a running toilet, and avoided the high cost of a plumber. It even help to select the replacement parts and how to replace them.
+
+Of course, on the tech side, AI is helping me build a healthcare company.
+
+What was yours?",Numeric,pre-labeled (script)
+"Show HN: Cwist; a hobby-grade C17 web framework that keeps your app simple
+
+First of all, I'm not claiming that my framework will save industrial C&#x2F;C++ development. It's just a hobby project.
+
+Industrial code needs safer code, not easier code. But when you're developing a blog at 8 PM, long template errors are annoying.
+
+You need CRUD and RDBMS. It's simple.
+
+CWIST is for that kind of work.
+
+It sacrifices memory safety, smart pointers, and modern C++ abstractions. In return, compile errors are more predictable.
+
+<pre><code>  #include &lt;stdio.h&gt;
+  #include &lt;cwist&#x2F;app.h&gt;
+  #include &lt;cwist&#x2F;core&#x2F;db&#x2F;pool.h&gt;
+  #include &lt;cwist&#x2F;core&#x2F;template&#x2F;template.h&gt;
+  
+  static cwist_db_pool_t *g_db_pool;
+  
+  static void send_error(cwist_http_response *res, const char *msg) {
+    res-&gt;status_code = CWIST_HTTP_INTERNAL_ERROR;
+    cwist_http_header_add(&amp;res-&gt;headers, ""Content-Type"", ""text&#x2F;plain"");
+    cwist_sstring_assign(res-&gt;body, msg);
+  }
+  
+  static void render(cwist_http_response *res, const char *path, cJSON *ctx) {
+    cwist_sstring *html = cwist_template_render_file(path, ctx);
+    if (html) {
+      cwist_http_header_add(&amp;res-&gt;headers, ""Content-Type"", ""text&#x2F;html"");
+      cwist_sstring_assign(res-&gt;body, html-&gt;data);
+      cwist_sstring_destroy(html);
+    }
+    cJSON_Delete(ctx);
+  }
+  
+  static void handle_index(cwist_http_request *req, cwist_http_response *res) {
+    (void)req;
+    cJSON *ctx = cJSON_CreateObject();
+    cJSON_AddStringToObject(ctx, ""title"", ""CWIST Example"");
+    cJSON_AddStringToObject(ctx, ""greeting"", ""Hello from CWIST"");
+    render(res, ""templates&#x2F;index.html"", ctx);
+  }
+  
+  static void handle_users(cwist_http_request *req, cwist_http_response *res) {
+    (void)req;
+    if (!g_db_pool) return send_error(res, ""database pool unavailable"");
+  
+    cwist_db_pool_exec(g_db_pool,
+      ""CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT);""
+      ""INSERT INTO users (name) SELECT 'Alice' WHERE NOT EXISTS ""
+      ""(SELECT 1 FROM users WHERE name = 'Alice');""
+      ""INSERT INTO users (name) SELECT 'Bob' WHERE NOT EXISTS ""
+      ""(SELECT 1 FROM users WHERE name = 'Bob');"");
+  
+    cJSON *rows = NULL;
+    if (cwist_db_pool_query(g_db_pool,
+        ""SELECT id, name FROM users ORDER BY id;"", &amp;rows).error.err_i16)
+      return send_error(res, ""failed to query database"");
+  
+    cJSON *ctx = cJSON_CreateObject();
+    cJSON_AddItemToObject(ctx, ""users"", rows ? rows : cJSON_CreateArray());
+    render(res, ""templates&#x2F;users.html"", ctx);
+  }
+  
+  static void handle_health(cwist_http_request *req, cwist_http_response *res) {
+    (void)req;
+    cwist_http_header_add(&amp;res-&gt;headers, ""Content-Type"", ""text&#x2F;plain"");
+    cwist_sstring_assign(res-&gt;body, ""ok"");
+  }
+  
+  int main(void) {
+    g_db_pool = cwist_db_pool_create("".&#x2F;app.db"", 1);
+    if (!g_db_pool) return 1;
+  
+    cwist_app *app = cwist_app_create();
+    cwist_app_get(app, ""&#x2F;"", handle_index);
+    cwist_app_get(app, ""&#x2F;users"", handle_users);
+    cwist_app_get(app, ""&#x2F;health"", handle_health);
+    cwist_app_use_https(app, ""cert.pem"", ""key.pem"");
+    cwist_app_listen(app, 8082);
+    cwist_app_destroy(app);
+    cwist_db_pool_destroy(g_db_pool);
+    return 0;
+  }
+
+</code></pre>
+Code style is old and still small. The code is simple and stupid.
+
+CWIST functions use the same `cwist_xx_xx` naming format. It's consistent. It's harder to make a slop in CWIST.
+
+Features
+
+- CWIST GC for fast prototyping. It's closer to a garbage sweeper than a traditional GC, and lighter.
+- Dev blog engine
+- HTML Template Engine
+- WASM
+
+External benchmark:
+""https:&#x2F;&#x2F;web-frameworks-benchmark.netlify.app&#x2F;compare?f=cwist,drogon"" rel=""nofollow"">https:&#x2F;&#x2F;web-frameworks-benchmark.netlify.app&#x2F;compare?f=cwist...</a>
+
+Latest results may be masked:
+""https:&#x2F;&#x2F;github.com&#x2F;the-benchmarker&#x2F;web-frameworks&#x2F;issues&#x2F;9775"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;the-benchmarker&#x2F;web-frameworks&#x2F;issues&#x2F;977...</a>
+
+Unofficial results (not reliable):
+""https:&#x2F;&#x2F;github.com&#x2F;c4punks&#x2F;CWIST&#x2F;actions&#x2F;runs&#x2F;39000473564&#x2F;job&#x2F;117302127557"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;c4punks&#x2F;CWIST&#x2F;actions&#x2F;runs&#x2F;39000473564&#x2F;jo...</a>
+
+Dev blog: ""https:&#x2F;&#x2F;oborona.zip"" rel=""nofollow"">https:&#x2F;&#x2F;oborona.zip</a>
+Org: ""https:&#x2F;&#x2F;c4punks.github.io"" rel=""nofollow"">https:&#x2F;&#x2F;c4punks.github.io</a>
+
+It doesn't help my portfolio, but please star the project if you enjoyed it.
+
+Special thanks to ""https:&#x2F;&#x2F;github.com&#x2F;thegoodengineer"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;thegoodengineer</a> for inviting organization members.",Numeric,pre-labeled (script)
+"Ask HN: Not sure but maybe that's why we all do coding
+
+As a programmer, you must have came across the word AI. 
+(As I'm a new user here, please read it atleast once, as I'll explain an interesting test on myself... The UI hurts, but feels cool though)
+
+It can easily do whatever task you give it, yes, and it's full of errors. 
+But if solved correctly by a person, then bug generally gets fixed.
+
+Though,
+""I don't wanna explain the time &amp; efforts it takes to fix a single bug""
+
+Then, why do we learn programming? Not CS, but programming (Programming is and essential part of CS).
+
+Well, recently, as a learner of psychology, I conducted a test on myself. And the test was a bit too long, but anyways.
+
+3mo ago, I was a prompt enginneer, who specialized in XML prompts (&amp; completed HTML, CSS, JS, Tailwind).
+
+Then I tried to build a SaaS with AI. And as it included languages I didn't know, I probably just copy-pasted the entire code back &amp; fourth. While I understood nothing.
+
+It gave me: Frustration (for being a perfectionist - Psychologically having high Openness), &amp; making me quit (for having high Neuroticism).
+
+Then I left learning programming as thinking QI could do it... Well it could, and over the months, AI changed drastically.
+
+I lost hope in the field of Programming (not CS). But then 3mo later, I got an idea:
+
+""Why not build tools to help me?"", and that idea was wild.
+
+I started Python, and surely people think it's an easy language to pick up. While IRL, it's considered one of the best language for real world building &amp; AI&#x2F;ML, aside from its simplicity.
+
+And so I treated it as a low level programming language (yes I learned low level controls in Python).
+
+But then, where I got stucked, I asked AI, and even the lowest level models could do it way better than me, without bugs.
+
+I was heavily discouraged, but then I came to the realization, even though AI can make something way broader, and robust than a human(if it has a good user), there's one thing for which the tool made by human... Seems better.
+
+It's that new ideas when people start programming, and instead of following a standard idea where you build a tool, you add something small in the code, that makes a big difference. 
+You add one feature, that the AI cm never. Why? Because all thez can do is copy, or follow blindly what the AI says. Or even if they are creative, they cannot have the cause to build the feature you had when building (Casuality).
+
+That's what I think constantly... And will.. maybe... Because that's what that keeps me going even though I'm late in programming.
+
+So HN seniors &amp; users (for some reasons, everyone here looks seniors with PhD in 5 fields), what's it that keeps you going?
+
+I'm just very very unconfident about my own idea. The test conducted showed me What I without (knowledge) + AI, and I with knowledge (- AI),  can do. But I'm still very much doubting me.....
+
+Thanks in advance if you have read this entire... Article?",Numeric,pre-labeled (script)
+"Show HN: Connectio – One local address for all your development servers
+
+I built this tool while working on MCP servers locally as I wanted to work on the UI as well as back-end server and was continuously iterating on the same. Since it needs a top level .&#x2F;well-known url, I either had to run a docker with redirects but that meant building the applications again and again which took time or adding a redirect and making UI application a server redirecting the URLs.
+
+Instead, I built Connectio which allowed me to create a config and save that as JSON in my machine. connect both servers and having route config similar to what it will run in AWS LB to redirect the traffic, then seeing the errors I was not sure if something was hitting the server or not so also added the capability to see the details and what was happening, how claude &#x2F; openai will request some resources, tools or other details and how the server was sending this, having issues etc.
+
+Would love to get some feedback on this and see what you guys think!",Numeric,pre-labeled (script)
+"Show HN: Tensor Golf – Practise PyTorch Through Short Drills
+
+Hello HN!
+
+Excited to share Tensor Golf!
+
+I'm excited to share this with everyone here, I've been seeing a lot of requests for tensor manipulation exercises and so I thought I'd create a place to build confidence and fluency in working with PyTorch tensors!
+
+I've found that understanding ML concepts and mathematics is one thing, but implementing them in PyTorch is a totally seperate beast.
+
+Tensor Golf lets you practise working with tensors in a puzzle format, with the least number of operations giving you a better score - hence the ""golf"" part.
+
+The core set of practise questions are free and I'm considering open sourcing the core set of puzzles :)
+
+Let me know if you find this useful!
+
+ps: 
+1. this is my first show hn ever, pls go easy lol
+2. more than 50 people have signed up and are loving it so far!!
+3. you have to login to try it - sorry, not a huge fan of allowing access to the execution backend without having emails attached to prevent abuse",Numeric,pre-labeled (script)
+"Show HN: Twain, a diff viewer like Meld, but for the age of AI
+
+I love Meld, I've been using it for a while now, it's amazing how many diff viewers exist these days and how they are all awful compared to Meld.
+
+But Meld was missing some features that I thought were worth having:
+
+- all files from a Git diff shown in the same view, sequentially + a file tree on the side.
+- show either the full files or only the parts that changed.
+- tree-sitter-based syntax highlighting.
+- the ability to comment on sets of changes and lines, and AIs can read these comments.
+- the ability to search through the entire set of modified files.
+
+Twain is in Rust and based on GTK4.",Numeric,pre-labeled (script)
+"Ask HN: Should I use Claude Code to create a replacement Apple IIGS ROM?
+
+Subject says it all.  I was wondering if anyone would find it mildly interesting to have a completely ""vibe coded"" replacement ROM 3 for Apple IIGS that has a bunch of modern stuff, with the same ROM entry points, but includes things like a TCP&#x2F;IP stack that uses the serial ports, maybe a much easier audio input&#x2F;output,more slick toolkits and windowing stuff?",Numeric,pre-labeled (script)
+"Ask HN: Claude Code since the last update ""Held message from another session""
+
+edit:
+
+--my-mistake-i-forgot-to-include--dangerously-skip-permissions-during-a-resume-and-totally-freaked-out
+
+--I-will-never-live-this-post-down",Qualitative,pre-labeled (script)
+"Show HN: Netsat, a shared internet virtual satellite you can use to learn DSP
+
+Receiving and decoding satellites is (in my opinion) one of the coolest things you can do with a radio. The problem is that it has a steep learning curve. Protocols are complicated, signals are hard to catch and track, and requires an investment in equipment just to get started.
+
+Netsat is an internet stream that simulates the experience of receiving a satellite signal with an SDR. I simplified the physics quite a bit to make it easier to get started. In the future I'm looking to add more simulated satellites that give users a bit more of a challenge. More realistic physics, location based signal changes, maybe even a moon mission with a controllable camera.",Qualitative,pre-labeled (script)
+"Show HN: Things to Do API
+
+I built an api&#x2F;mcp for local events: pop-ups, one-off events, concerts, etc. currently covering the SF bay area.
+
+I've been building a bunch of consumer apps lately around personalization and recommendation and have had a hard time finding this data in one spot. agents can find useful stuff through tool calls &#x2F; web search, but slow.
+
+you can scrape on demand too, but i wanted a faster data set and couldn't find an existing provider for the mix of event types I was searching for.
+
+the methodology for it is to find influential accounts&#x2F;posters&#x2F;etc. and do a fan out across things that they co-post with.
+
+mcp: `claude mcp add --transport http thingstodo ""https:&#x2F;&#x2F;api.thingstodoapi.com&#x2F;mcp"" rel=""nofollow"">https:&#x2F;&#x2F;api.thingstodoapi.com&#x2F;mcp</a>`
+
+I'm considering adding other cities. If you're building something that needs local event data, would something like this be useful and where would you want coverage?",Numeric,pre-labeled (script)
+"Show HN: Fakeipedia – Wikipedia for worlds that don't exist
+
+Hi HN!
+
+Fakeipedia is an automatic world-building platform which takes an imagined world and makes a whole wiki that you can endlessly explore by clicking red links.
+
+I came up with this idea a few months ago after playing around with worldbuilding in Gemini, but I didn't want to release it until a powerful enough model could do it justice, and I decided that Argon is creative enough to write articles that are worth reading. I was surprised how well it turned out and how engaging some of the writing actually is.
+
+If you want to generate an article there is a nominal charge attached ($0.90), which helps cover AI&#x2F;Stripe costs, and I think I just about break even. You can also steer the generation ala choose-your-own-adventure books when generating a new article. Everything generated is free and public for everyone to see.
+
+I hope you like it and I'm very much open to hearing about new world ideas&#x2F;features that would make this project better.",Numeric,pre-labeled (script)
+"Bleached corals thrive within days when touching healthy neighbour
+
+""https:&#x2F;&#x2F;archive.ph&#x2F;zIPG4"" rel=""nofollow"">https:&#x2F;&#x2F;archive.ph&#x2F;zIPG4</a>",Numeric,pre-labeled (script)
+"Ask HN: Is anyone still running Token Ring or FDDI networks?
+
+Recent discussion on Token Ring networks has me wondering, has anyone seen any Token Ring or FDDI networks still running out there?",Qualitative,pre-labeled (script)
+"Show HN: Fly a Tesla Roadster over parked Teslas before the air runs out
+
+(credits to Fable 5.1)",Numeric,pre-labeled (script)
+"Nine-Inch Snails
+
+""https:&#x2F;&#x2F;www.theatlantic.com&#x2F;science&#x2F;2026&#x2F;10&#x2F;giant-african-snails-florida-invasion&#x2F;688850&#x2F;?gift=eKUtrZynxFJ4xrXiS7sXWm4LQEkwrCNuhj_xxtnEnrg&amp;utm_source=copy-link&amp;utm_medium=social&amp;utm_campaign=share"" rel=""nofollow"">https:&#x2F;&#x2F;www.theatlantic.com&#x2F;science&#x2F;2026&#x2F;10&#x2F;giant-african-sn...</a>
+
+""https:&#x2F;&#x2F;archive.ph&#x2F;5a0TV"" rel=""nofollow"">https:&#x2F;&#x2F;archive.ph&#x2F;5a0TV</a>",Numeric,pre-labeled (script)
+"Ask HN: Social network with AI agents – why bad, why good?
+
+Hello! I can't get my mind off the idea of building an AI-native social network. Every user has its own agent (only one), which can talk to other agents or check content on the user's behalf.
+That way, the agent can ""process"" far more information about people than the human, and help in building relations.
+
+Why it is a bad&#x2F;good idea? Worth trying?",Numeric,pre-labeled (script)
+"Show HN: Pomoflow – a 1-bit Pomodoro with a todo list that syncs without sign-up
+
+Pomoflow is (yet another) Pomodoro app in a 1-bit style inspired by the early Macintosh GUI. It also has a todo list you can sync between your devices without having to login to an account. A jukebox loads and plays your favourite YouTube playlists. And there are bonus weekly focus stats for the numberphiles among us.
+
+I built this because I wanted three things in one place: a pomodoro timer that looks good, a task list that syncs across my devices without an account (the apps I tried kept putting sync behind a login or a paywall), and my YT playlists I could play without having to leave the tab.
+
+A little more detail on the no-account task list syncing- To sync tasks you generate a random 128-bit key and paste the key or scan a QR code on the other device. The pairing link carries the key in the URL fragment, so the browser never sends it to the server, and the server stores only a SHA-256 hash of it. Anyone with the key can read and edit the list. Without a key, tasks stay in the browser.",Numeric,pre-labeled (script)
+"Show HN: Play a 5 minutes match of CS 1.6 1v1 while you wait for your agent
+
+I just made it and I think it's fun to play while I wait for claude, but I need more users to play with",Numeric,pre-labeled (script)
+"Tell HN: Anthropic found 36 bugs (6 CVEs) in Pion, OpenAI missed them
+
+We added Pion DTLS to Anthropic's OSS scanner last week (https:&#x2F;&#x2F;github.com&#x2F;anthropics&#x2F;oss-scanner&#x2F;pull&#x2F;93), and today we woke up to a report with 36 bugs, including 6 security vulnerabilities: 2 critical, 3 high, and 1 moderate. Four of them affect WebRTC.
+
+Some of these vulnerabilities have been sitting in the codebase for over 4 years, surviving years of testing and security scans. It's funny that our inboxes are constantly spammed with AI-generated security reports from people using Codex and Claude, most of which flag pointless issues. Yet somehow, none of them caught these.
+
+The funniest part? Anthropic also found 3 bugs that OpenAI's internal code review missed. I had asked OpenAI to review a new DTLS API since they use Pion and had a use case for it in SPED. Their review didn't flag any bugs. Anthropic found an authentication issue, a deadlock, and a TLS KeyUpdate bug (Maybe their model ignored this one because it's not a WebRTC issue). Luckily, the API hasn't been released yet. The fixes: https:&#x2F;&#x2F;github.com&#x2F;pion&#x2F;dtls&#x2F;pull&#x2F;1236
+
+Here are the security advisories for the CVEs Anthropic found (all of them are pre-chatgpt!):
+
+Critical: DTLS handshake signature confusion allows peer impersonation - https:&#x2F;&#x2F;github.com&#x2F;pion&#x2F;dtls&#x2F;security&#x2F;advisories&#x2F;GHSA-7c2r-jhm9-43vf
+
+Critical: Client authentication bypass through premature session caching - https:&#x2F;&#x2F;github.com&#x2F;pion&#x2F;dtls&#x2F;security&#x2F;advisories&#x2F;GHSA-hhpj-h56m-9f2p
+
+High: Client authentication bypass with shared session stores - https:&#x2F;&#x2F;github.com&#x2F;pion&#x2F;dtls&#x2F;security&#x2F;advisories&#x2F;GHSA-cqhp-ggp7-58qj
+
+High: Unbounded handshake cache allows remote memory exhaustion - https:&#x2F;&#x2F;github.com&#x2F;pion&#x2F;dtls&#x2F;security&#x2F;advisories&#x2F;GHSA-jm57-r6vj-mwg9
+
+High: Oversized RSA keys allow CPU exhaustion - https:&#x2F;&#x2F;github.com&#x2F;pion&#x2F;dtls&#x2F;security&#x2F;advisories&#x2F;GHSA-jp25-wc3w-p9xp
+
+Moderate: Repeated certificate verification allows CPU exhaustion - https:&#x2F;&#x2F;github.com&#x2F;pion&#x2F;dtls&#x2F;security&#x2F;advisories&#x2F;GHSA-qpgj-64qg-5m4r
+
+The most annoying part is that neither company's models were willing to help with verifying or filtering the bugs, so we had to manually review them one by one (Spent all day :&#x2F;",Numeric,pre-labeled (script)
+"Show HN: I benchmarked 6 MCP proxies in Claude Code, then built my own
+
+I compared 6 MCP proxies inside Claude Code. Most advertise 85–99% token savings, but those numbers assume every tool schema is loaded upfront, and Claude Code already avoids that. On real tasks, 4 of them used more tokens than no proxy at all, and 2 couldn't finish the tasks. So I built my own router, which cut tokens by 13–44% and completed every task.",Numeric,pre-labeled (script)
+"Show HN: Pogi – AWS, Google Cloud and Azure on your machine, in one binary
+
+I built pogi to test cloud code locally without an emulator per service or a test account. It's one Go binary that serves 181 services across AWS, Google Cloud and Azure on one port.
+
+The official SDKs, CLIs, Terraform and the CDK work unchanged, and there's a web console, IAM checks, chaos rules, snapshots built in and much more...
+
+Some services are deep, others cover the common calls; the coverage page is honest about which. MIT licensed, no account. It's v0.1.0, so I'd love to hear what breaks.
+
+- website      :  ""https:&#x2F;&#x2F;pogi.nrnx.dev"" rel=""nofollow"">https:&#x2F;&#x2F;pogi.nrnx.dev</a> 
+- Launch video : ""https:&#x2F;&#x2F;youtu.be&#x2F;Grq8Dl_C4hQ"" rel=""nofollow"">https:&#x2F;&#x2F;youtu.be&#x2F;Grq8Dl_C4hQ</a>
+- repo.        : ""https:&#x2F;&#x2F;github.com&#x2F;nrndev&#x2F;pogi"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;nrndev&#x2F;pogi</a>",Numeric,pre-labeled (script)
+"Show HN: CoastMath: (Open Source) Personal Finance and Retirement Planner
+
+Self-hosting instructions in the README.
+
+Hosted version: ""https:&#x2F;&#x2F;coastmath.com&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;coastmath.com&#x2F;</a>
+
+iOS app: ""https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;id6809539979"">https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;id6809539979</a>
+
+This post is partially inspired by this thread: ""https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50048344"">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50048344</a>
+
+```
+&gt; Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks&#x2F;months can now be completed by agents with a prompt.
+
+&gt;&gt; No, they can't, at least not any semblance of quality. The cases we're seeing where this does kinda work is in ports and translation where all the rules are already documented in the best specification language possible with a way for the LLM to verify itself: code. We saw this close to a year ago now with Cloudflare and NextJS
+```
+
+This post mostly outlines how I am personally building with agents, as I am almost entirely hands-off.
+
+Desired feature-set determined by having agents research existing products and feedback &#x2F; feature requests on FIRE subreddits.
+
+Features built using Opus 5.5 (xhigh) &#x2F; Fable 5.1 (med&#x2F;high) as orchestrator and Opus-5-5 low&#x2F;medium as worker subagents.
+
+Quality is attempted by running Opus-5-5 agents in a perpetual audit + fixer loop on the calculation &#x2F; compliance engine until no medium+ severity can be found. The origin of each rule &#x2F; logic must be backed up and documented in the codebase with a source.
+
+Sonnet subagents run UX &#x2F; QA audit on iOS simulators within the Claude Code desktop app, and Opus agents resolve all medium+ sev issues; also run on a perpetual loop.
+
+I have not manually tested or used the app(s) for more than 30 minutes. For UX quality, agents' screenshots + associated context are fed to a combination of GPT &#x2F; Gemini &#x2F; Claude agents until consensus is achieved on quality (7&#x2F;10+).
+
+Early feedback from beta testers report extremely close results to Boldin &#x2F; Projection Lab. There is also a feature to import your data from Boldin and Projection Lab into CoastMath if you wish to compare the results yourself.
+
+There is also a SimpleFIN integration, if you wish to pull in your own transaction data and see how your financial future changes based on your monthly spending habits (e.g. when I will get to retire if I spend like I did in June vs. July?).
+
+I'm sure there are other features I don't yet know about. Again, I've barely used the app.
+
+Anyway, feel free to use &#x2F; roast &#x2F; steal. I don't think that any moat can exist in this class of products in the future (where the rules are laws that are visible to everyone) and I don't expect to turn a profit.
+
+Estimated cost: maybe $2000 if done over the API? I did most of this using the $200 Max subscription.",Numeric,pre-labeled (script)
+"Show HN: Gondwana, a code-first C#/.NET game engine with WebGL
+
+Gondwana is a 2D&#x2F;2.5D game engine for C#&#x2F;.NET 8 that I’ve been building over the past 16 months, using SkiaSharp for rendering. I've spent my career creating web and distributed apps and that has influenced the engine's development, so it will feel very familiar to anyone with a similar background. The engine is deliberately code-first in its implementation but still includes visual authoring tools and a custom CLI.
+
+I started creating Gondwana to host my own RTS and SNES-style games, to offload the game ideas percolating in my brain. I wanted to focus more on creating gameplay systems and was less concerned with 3D graphics. The predictability and transparency of the old Win32&#x2F;GDI era were the ideal for what I was shooting for, but I also wanted something faster and more portable than GDI32. To that end, I am not trying to emulate the bigger engines.
+
+Spot! became my primary dogfooding project that I’ve since pushed up to itch.io. Getting a game to that point really helped burn away the cruft that accumulates from trying to create something like this. I was able to get Spot! to render at a consistent 120 fps on my dev machine. I experienced the absolute ecstasy of getting WebGL to cooperate with the engine cycle. And I discovered that even if Gondwana is code-first, you don’t want to hand-code platformer levels, so I added Gondwana Studio to the repository. Studio uses the same file formats that are understood by the core engine. Asset handling was beefed up, UI widgets were added for things like game HUD elements and engine diagnostics, and I fleshed out the CI&#x2F;release pipeline to keep it organized.
+
+As it stands currently, Gondwana supports GPU-backed OpenGL rendering with WinForms and Avalonia hosts, and a dedicated WebGL path with Blazor. Recently a good bit of effort has been put into optimizing the rendering hot-path, reducing contention between simulation and presentation, and into making the visual tooling easy to use by people other than just me. I even was able to get itch.io deployment down to a single command in the custom CLI.
+
+The engine is still actively evolving feature-wise, but the core rendering is pretty solid right now. I expect Gondwana will remain 2D&#x2F;2.5D with parallax support, so I am not trying to supplant Unity, Godot, et al. Also worth noting, Gondwana intentionally does not have an explicit ECS framework built in, although one could absolutely work well with the engine if desired.
+
+The project is MIT licensed, the source is hosted on GitHub, the packages are on NuGet, and Spot! is playable in the browser at itch.io. I will include several links in the first comment under this. I’d love to see what other hobbyists or indie game devs think of the project. Feedback on usability, as well as praise and&#x2F;or criticism of the architecture would be awesome.",Numeric,pre-labeled (script)
+"What's the management thinking behind enshittification
+
+... such as pushing a software update to your customers' smart thermostat to show ads on its screen - as a new thing.
+
+One theory: Previously our customers were techy and smart, and would not stand it. Now we're more reaching average Joe, who is too dumb to push back.",Qualitative,pre-labeled (script)
+"Ask HN: Why do developers hate Confluence?
+
+Has there ever been an internal documentation tool that developers like?",Qualitative,pre-labeled (script)
+"Emu Concept – Make AI Follows Your Rules. (Feedback Wanted)
+
+The idea is how can we make personal agent apps on the phone just listen to your rules... Like it's weird to have Muse, Grok Bot, Dots, Instinct not ask me about when I want them to work for me or align with my rules, values, and goals.
+
+If I give these agents access to tools&#x2F;connectors&#x2F;data they just ""assume"" what I want or what it should do rather than asking me? And even if I set these for a specific agent then what happens when a newer personal agent comes out? Do I have to reconfigure again my rules for each flavor of personal agents or harness?
+
+This is where our initial idea stems from and we need feedback:
+
+Emu is a self-learning on-device AI guardian that makes AI agents follow your rules. Also the video above kind of just highlights Emu's concept thought process.",Numeric,pre-labeled (script)
+"Show HN: Donut Browser, the most private anti-detect browser
+
+Hi everyone!
+
+About 2 years ago, I began to work on Donut Browser as a tool to manage browser profiles, which over time has evolved into a proper anti-detect browser.
+
+Anti-detect browsers let you create browser profiles that look like as if you have a completely different computer. I believe Donut is the most private anti-detect browser because:
+- It has no telemetry and doesn't track your browsing activity
+- It spoofs your browser identity in a way that looks like a real device for every profile
+- It notifies you when a website takes a snapshot of your browser identity
+- It is built on top of Chromium and lets you block ads and trackers at the DNS level without relying on Manifest V2
+- It lets you create unlimited profiles (the first anti-detect browser to do that)
+- It supports Linux, which not all anti-detect browsers do!
+
+I use Donut as my main browser and the only other browser I have installed is Tor. If you are into privacy, it offers a lot better experience than Firefox containers or writing your own scripts to manage profiles!
+
+If anyone is going to try it, would love to hear any feedback!",Numeric,pre-labeled (script)
+"Show HN: Sill for Android – control your Mac's windows from an Android phone
+
+Sill (discussed here: ""https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50112739"">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50112739</a>) streams one Mac window, or the whole Desktop, to an iPhone or iPad and lets you control it by touch. It's open source, so I made an Android client for it. It's unofficial and not affiliated with Sill's author: it speaks Sill's existing protocol, so the Mac side is the stock Sill app, unchanged.
+
+Install Sill on the Mac, sideload the APK from Releases onto an Android 11+ phone on the same Wi-Fi, tap your Mac in the list that shows on your phone, then look for the 12-digit code in Sill on your Mac, and type it into the Android app.
+
+Then: tap to click, drag to scroll, hold-and-drag to select text or move windows, pinch to zoom the picture on the phone, a Draw toggle for whiteboard apps like tldraw, and a key row with Esc, Tab, Cmd&#x2F;Ctrl&#x2F;Option&#x2F;Shift and arrows. It also works over Tailscale with Sill's Remote Access.
+
+All of the code was written by Claude Code, working from Sill's Swift source and its Python test client; I tested it on a Pixel 9 Pro XL.
+
+Not done yet: drawing the Mac's pointer, a trackpad mode, clipboard sync, and a Play Store listing (I don't have Play developer account, and new individual Play developer accounts can't publish their first app until they've tested an app with a closed test with 12 testers.)
+
+(There's also a separate Android client in draft PR #89 on Sill's repo. This one is a standalone app with an installable APK. I should have checked the issues&#x2F;PRs before I asked Claude to build this...)",Numeric,pre-labeled (script)
+"Why is there no AlphaZero for theorem proving?
+
+It seems an obvious thing to try; therefore, it has been tried.
+
+Impressive results are publicized; therefore it wasn't impressive.",Qualitative,pre-labeled (script)
+"You could have invented transformers from memory
+
+""https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932"" rel=""nofollow"">https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932</a>",Numeric,pre-labeled (script)
+"Claude reveals ECDSA curve origins
+
+""https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",Numeric,pre-labeled (script)
+"Show HN: Stoke Money – Personal finance app built around a cash flow forecast
+
+Hi HN,
+
+I've been through many finance tracking apps, starting with Personal Capital, then Monarch, and most recently Copilot. None of them have worked perfectly for my needs.
+
+All of these apps tend to model “cash flow” as the net sum of your transactions during a month, yet while credit card charges are reported immediately, they are typically deducted from checking (cash) accounts the following month when the bill is due. As a result, I've always had to maintain a separate spreadsheet to track my actual cash flow.
+
+These apps also have a huge focus on managing budgets, which has never been for me. My spending is rarely consistent month-to-month, so every month I'm comparing my fully justified spending against my budget, and tweaking my budget until I “pass”.
+
+So I built yet another finance tracking app. It has the usual components - accounts, transactions, categories - but the core is a cash flow projection engine, and everything else is built around it.
+
+Budgets are gone. Instead, each income&#x2F;spending category is projected forward from your historical activity, but not as a flat monthly number. They land in whatever account you historically use (e.g. checking account for paychecks&#x2F;rent&#x2F;bills, credit&#x2F;debit cards for daily spending). Credit card payments are modeled automatically based on your projected credit card balance. You can set up your own recurring transfers between accounts as well, to model savings, for example.
+
+The end result is that the app can forecast how your cash moves, and you can see in advance when any account might run low. If all of your accounts look good for the next 12 months, maybe you don't have a budgeting problem.
+
+What’s made the biggest difference for me has been the MCP integration, which I have connected to Claude (but can be connected to any AI agent of your choice). I have asked it to import historical transactions by uploading PDF account statements, categorize&#x2F;tag all transactions that took place while I was on vacation, and plan transfers across my accounts to cover expected payments.
+
+I hope some people that share my frustrations will find this app useful.",Numeric,pre-labeled (script)
+"Show HN: Putaway – sorts your Mac's Downloads into the folders you have
+
+My Downloads folder is full of files like download (3).pdf, IMG_4821.jpg, and Untitled.docx. I already have folders for them in Documents. I never move them because I have to open each file to know what it is. Putaway does that part.
+
+It reads the start of each file on your Mac: PDF text, OCR for scans and photos, Word, Excel, CSV, and HTML. Then it picks one of the folders you already have. It never makes new folders. It shows you the plan first. Nothing moves until you click Move, and Undo puts everything back.
+
+Demo (this run uses a SubQ key, so some files are ready to move): ""https:&#x2F;&#x2F;github.com&#x2F;devYRPauli&#x2F;putaway&#x2F;blob&#x2F;main&#x2F;docs&#x2F;demo.gif"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;devYRPauli&#x2F;putaway&#x2F;blob&#x2F;main&#x2F;docs&#x2F;demo.gi...</a>
+
+You choose the model. The default is Apple Intelligence on your Mac. It is free, and nothing leaves your Mac. You can also use your own model through any OpenAI-compatible server, such as Ollama or LM Studio. Or you can add your own SubQ or Jev API key. Those two give a probability for each folder, so Putaway moves the files they are sure about. With Apple or your own model, you confirm each file.
+
+I tested the released build on 107 files with messy names: public IRS forms, papers, receipts, photos, and spreadsheets, plus fake secret files and a partial download. There were 19 target folders, including decoy folders that apps make, such as Zoom and Adobe. Files in an acceptable folder: SubQ 88%, Jev 85%, qwen2.5 7B in Ollama 82%, Apple's on-device model 67% (of the 99 files it agreed to read). When SubQ or Jev moved a file on its own, it was right 132 of 136 times.
+
+One surprise: Apple's on-device model refused to read three blank government forms, including the IRS 1040, as unsafe content. Putaway leaves those files in place and tells you why.
+
+It never reads files with names like .env, id_rsa, or recovery-codes.txt. If a file's text looks like a private key or a token, it does not send it. It never overwrites a file, and it skips downloads that are not complete.
+
+Install (Apple Silicon, macOS 26). The install script is 33 lines, so you can read it first:
+
+<pre><code>  curl -fsSL https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;devYRPauli&#x2F;putaway&#x2F;main&#x2F;install.sh | bash
+
+  brew install devyrpauli&#x2F;tap&#x2F;putaway
+</code></pre>
+It is a Swift menu bar app and a CLI, MIT-licensed, with no dependencies. I do not pay for an Apple developer account, so the app is not notarized. The curl and brew installs do not show the Gatekeeper prompt.
+
+I want to know which files it puts in the wrong folder, and which file types it misses. Keynote, Pages, and pptx files are filed by name only for now.",Numeric,pre-labeled (script)
+"Anthropic assigned highest junk credit rating in June
+
+""https:&#x2F;&#x2F;finance.yahoo.com&#x2F;technology&#x2F;ai&#x2F;articles&#x2F;anthropic-secured-highest-junk-credit-040018773.html"" rel=""nofollow"">https:&#x2F;&#x2F;finance.yahoo.com&#x2F;technology&#x2F;ai&#x2F;articles&#x2F;anthropic-s...</a>",Numeric,pre-labeled (script)
+"Show HN: A ""falling block puzzle game""
+
+Four games of Tetris played simultaneously. The corners overlap.
+
+Hidden Easter egg if you've got the chops (I certainly don't haha)
+
+glhf",Qualitative,pre-labeled (script)
+"GifCities
+
+""https:&#x2F;&#x2F;twitter.com&#x2F;internetarchive&#x2F;status&#x2F;2111140945705963787"" rel=""nofollow"">https:&#x2F;&#x2F;twitter.com&#x2F;internetarchive&#x2F;status&#x2F;21111409457059637...</a>",Numeric,pre-labeled (script)
+"Anthropic Console overcharged my card 100x due to internationalization input bug
+
+I am a LegalTech Attorney leading a developer team from Costa Rica. While trying to load credits onto my Anthropic API account (claude.com), I experienced a critical internationalization (i18n) and UX failure that has placed an unfair financial burden on me due to a severe oversight in their payment pipeline.
+
+The platform prompted me for a payment. Since I am in a Spanish-speaking region where localized systems and keyboards handle dots and commas differently, I typed 5.04.
+
+Anthropic’s input system completely failed to sanitize or validate the data. Instead of throwing a formatting error or converting it properly, it silently stripped the decimal internally and instantly charged my credit card $504.00 USD instead of $5.04 USD.
+
+To make matters worse, there was no confirmation modal or review screen summarizing the final amount before processing the transaction. It was a single-click, instantaneous overcharge.
+
+Anticipating the Obvious Skepticism:
+Before anyone suggests ""you should have checked your regional settings"" or ""just wait for the chargeback"":
+
+1. Users are not the QA team: In financial software, a system is never supposed to guess or automatically manipulate a numerical input without explicit validation. If an input is ambiguous due to locale differences, the application must reject it or ask for clarification, not execute a 100x overcharge.
+
+2. Scale of the vulnerability: This time it was $504.00, which is an unfair and frustrating burden for independent developers. But because this pipeline completely lacks a confirmation screen and basic input sanitization, the exact same bug could happen to someone typing 50.00 and end up charging them $5,000.00 or more instantly. It is a systemic financial risk.
+
+3. The Chargeback Illusion: Yes, I have already initiated a chargeback with my bank in Costa Rica. However, banking processes here are slow and take up to 120 days to resolve. In the meantime, the $504.00 has already been deducted and charged to my credit card statement. I am forced to pay for Anthropic’s engineering mistake out of my own pocket right now.
+
+The Support Wall:
+I filed an official complaint on the exact same day, minutes after it happened. I wasn't met with a human; I was blocked by an automated support BOT. The bot repeatedly and rigidly denied the refund, closing the ticket by citing generic policies without a single human ever looking at the fact that the overcharge was caused by a technical bug in their own platform.
+
+As developers, we build systems that process people's money. Omitting a confirmation screen on a financial transaction, failing to sanitize localized numerical inputs, and then hiding behind unyielding AI support bots to keep money that doesn't belong to you is completely unacceptable.
+
+If anyone from Anthropic's billing or engineering team is reading this, please look into this bug and review my case. It is a critical flaw that is actively harming international developers who are just trying to build on your ecosystem.
+
+Pura vida!
+
+R.S.G.",Numeric,pre-labeled (script)
+"The First Candid
+
+""https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Boulevard_du_Temple_(photograph)"" rel=""nofollow"">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Boulevard_du_Temple_(photograp...</a>
+
+""https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20261012120105&#x2F;https:&#x2F;&#x2F;www.newyorker.com&#x2F;magazine&#x2F;2026&#x2F;10&#x2F;19&#x2F;the-first-candid"" rel=""nofollow"">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20261012120105&#x2F;https:&#x2F;&#x2F;www.newyo...</a>, ""https:&#x2F;&#x2F;archive.is&#x2F;GC1u4"" rel=""nofollow"">https:&#x2F;&#x2F;archive.is&#x2F;GC1u4</a>",Numeric,pre-labeled (script)
+"Show HN: Terra – Restore Wasteland – Looking for Feedbacks – Soon Open Source
+
+Hi, i love the game TerraNil and i decided to make my own version of the game adapted to my vision fully native experience on iOS - Looking for feedback -  this version is a very early phase with basic core mechanics, looking for feedbacks for improvements",Qualitative,pre-labeled (script)
+"A Re-Ranker as a Decision Model
+
+How far a small reranker could go as a decision model?",Qualitative,pre-labeled (script)
+"AI Revolution vs. Computing Revolution
+
+I have been reading a lot about computing revolution in 60s&#x2F;70s. Seeing a lot of parallels to today. A bunch of enterprises spent millions on these IBM&#x2F;DEC machines but didn't see any ROI. But then a lot of consulting and product companies popped up to help with that.
+IBM&#x2F;DEC had crazy high margins during this time (similar to Nvidia&#x2F;micron etc) but all withered away eventually. In the end the software companies (Microsoft, Google etc.) captured most of the value, what's the equivalent of that for AI?",Numeric,pre-labeled (script)
+"Show HN: Agent Chat in Your Markdown Notes – Chat with Context and Save Response
+
+EtherPK now has Agent Chat.
+
+I use AI agents in two distinct ways. For coding I use TUIs, but for day-to-day and non code projects I used to use the web chat UIs like many others. Two things about this was always jarring:
+
+You're starting context from scratch. You might have a couple of agent instructions configured, but you have to tell the agent what you're thinking, from the beginning.
+When you get the information you need, holding on to it is hard. Within a day or two it's burried in your chat history.
+EtherPK is a mardown based PKMS (notes app), and it solves both of these problems.
+
+You can type &#x2F;Agent within your notes (EtherPK supports standard prose and outliner blocks in the same document). The Agent Chat panel opens within your document, and you can choose how much context to give it. That might be nothing, the current block tree, the document or the whole graph (in the case of the latter - immediate surounding context is sent and the agent is given tools to navigate the rest of your graph). You control what the agent gets, and what stays private.",Numeric,pre-labeled (script)
+"VectorCraft vs. Figma vs. Penpot vs. Adobe Illustrator vs. Wunjo Design?
+
+I heard about the backstory behind the creation of VectorCraft a week ago. I actually gave it a try, and—good god—what a piece of AI-generated slop it turned out to be. I don’t get what all the hype is about.",Qualitative,pre-labeled (script)
+"Show HN: Muse Jailbreak – Let Muse use your own Chrome
+
+Hi HN. I built a small macOS menu bar app that lets the Muse agent use the Chrome browser on your own Mac.
+
+I built it because I kept hitting the same wall. I'd ask Muse to do something on the web and it would come back holding a login page. I'm already signed in to a thousand places in my own Chrome; I don't want to hand every one of those logins over to an agent, or sign in all over again inside some cloud browser. So I built a bridge that lets Muse use the browser I already have: my Chrome, my sessions, signed in as me.
+
+How it works: the app launches a dedicated Chrome profile on your Mac and exposes it over CDP. You turn it on, it shows a one-time code, you give that code to Muse, and Muse connects through a tunnel (Cloudflare Quick Tunnel by default, or a self-hosted sish fallback if you prefer your own infrastructure). The browser never leaves your machine: cookies, sessions and logins stay on your computer. The tunnel only carries the agent's control traffic, and it is end-to-end encrypted (AES-256-GCM). Muse sees screenshots and sends back clicks and keystrokes; where a page needs a genuine mouse event it can also click at the OS level via the Accessibility API.
+
+It is native Swift with no third-party dependencies, and everything is open source (app, protocol, tunnel client) so you can audit exactly what it does before running it.
+
+Honest caveats: this gives an AI real control of a browser where you are logged in. That is the point, and also the risk. Use the dedicated profile, don't leave it running unattended, and only connect agents you trust. macOS only for now.
+
+I built it for my own use and would genuinely like feedback on the security model: what is missing, and what would make you comfortable (or uncomfortable) running something like this?",Numeric,pre-labeled (script)
+"Would anyone sell a check that at least one house window was locked?
+
+Apparently Yes.
+
+https:&#x2F;&#x2F;support.ledger.com&#x2F;article&#x2F;4404389367057-zd",Numeric,pre-labeled (script)
+"Show HN: We built an open source, agent-first, alternative to Profound
+
+We wanted a way to track AI visibility locally in an agent first way, so we built Canonry.
+
+On top of AI visibility, it integrates GSC, Analytics, server traffic, and ads to give your agent a full view of your site's visibility.
+
+Some of the things we've built on top of Canonry: an automated content generation engine, in-depth site health check monitor, ads optimizer.
+
+We learned a lot about AI visibility and how to optimize sites during this process, happy to answer any questions!",Qualitative,pre-labeled (script)
+"Ask HN: What's your current MacBook wallpaper?
+
+looking for inspo",Qualitative,pre-labeled (script)
+"Ask HN: Would you use a tool that adds a real back end to any front end?
+
+i am building a backend connection where user can upload any ui&#x2F;ux it will auto connect the backend within 1 minute or maybe 2 and also im providing many backend connectionsincluding advanced version like ai models ,datastorage,login and many other options ,all this in one click setup,what you guys really thinking about it",Numeric,pre-labeled (script)
+"Show HN: Tennis, a local/offline context store
+
+Hi everyone! I'm Joe, and I built Tennis: a CLI that indexes and searches your context offline. You can index any files, your Chat &amp; Claude sessions, Codex history, etc. All local and offline.
+
+I've always hated having chats siloed in Claude and not having an easy way to connect that context in other apps. Anything that exists today has a subscription and is stored on their servers, and really wanted something fast, local, and offline.
+
+How Tennis works:
+* SQLite&#x2F;FTS5 (keyword) + vec0 (vector)
+* model2vec &#x2F; potion-retrieval-32M (512-dim, 123MB). This is a flat vector table, and what helps make this work well local&#x2F;offline.
+* RRF (k=60) fuses BM25 keyword rank + cosine semantic rank into one score
+
+Tennis also creates markdown files called 'cards' at indexing time. This gives you an easy, summarized, human readable format to see what Tennis has. You can edit these files (but won't change the embeddings in SQLite).
+
+You can use Tennis via API and MCP.
+It's incredibly fast, and the MCP works great as a connector to different applications (ChatGPT, Claude, Opencode, etc).
+
+You can install and use it today: ""https:&#x2F;&#x2F;tennis.jlachance1.workers.dev&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;tennis.jlachance1.workers.dev&#x2F;</a>
+
+Thanks for checking this out! I would love any feedback. Thank you",Numeric,pre-labeled (script)
+"Show HN: Wasmga.me – Homebrew and open-source games running on WebAssembly
+
+This includes console games on existing emulators, Flash games on Ruffle, classic games like 2048 and Snake on a small custom engine and open-source games ported to WebAssembly. Some engines are patched to support save&#x2F; load and resume. Porting is mostly about s&#x2F;l, loading files, threads and display issues.",Numeric,pre-labeled (script)
+"Show HN: Gemini 4 Argon plays StarCraft
+
+I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse",Numeric,pre-labeled (script)
+"Ask HN: Flying Car Practical Tech
+
+In this presentation, Elon Musk briefly mentioned a practical benefit of the new flying car, at minute 8:45:
+https:&#x2F;&#x2F;www.youtube.com&#x2F;live&#x2F;qt5p-_tE8d0?t=525
+
+""The actual benefit ... where the downforce of the car ... because the car sticks to the ground so hard.""
+
+Could anyone who understands the technology expand on that and explain it in simple terms for non-experts?",Numeric,pre-labeled (script)
+"Ask HN: Thoughts on hiring junior engineers in 2026?
+
+Just started hiring for my AI x Freight startup. To vet junior hires I'm offering them paid internships (above median market pay) before making a FT hire decision.
+
+So far, I'm really struggling to see the value add of a junior engineer given how good the models have become. A senior with Max plan beats three junior hires (very rough estimate).
+
+Having spoken with a few peers (founders), they have expressed similar feelings. I want to hire juniors and see them grow, but I feel my bar of expectations is at an all time high, and perhaps unrealistic.",Numeric,pre-labeled (script)
+"Show HN: Monitoring my 'dumb' boiler with AI
+
+I have this boiler at a rental property I own. It has 3 smart thermostats (Ecobee). They're great and give the individual tenants zone control, but they only notify me something is wrong when it's already too late as they rely on observing the 'call for heat' and a ongoing decline in room temperature to trigger the alert.
+
+The boiler is pretty smart, it has all kinds of cool error codes, but the issue is I have no way of knowing theres an error flashing on the screen. That is, until now.
+
+I put a Tapo camera pointed at the boiler (getting Tapo to export still frames was a whole other issue, code for doing that is in the same github project for anyone interested) and use AI to read the screen and zone controller lights.
+
+The result is a system that sends me a text message any time something goes outside of the normal operating parameters. My goal is to deliver a great experience for the tenants living at this property, and now I'm able to connect my 'dumb' appliances to the internet without any of the typical risks associated with exposing critical infrastructure to the web.",Numeric,pre-labeled (script)
+"More Powerful Than Ever, (can't find work)
+
+Have been working in tech since 2004 as a designer and founder and html&#x2F;css jockey. With AI's help over the last few years I've become full stack proficient with client and personal projects.
+
+So now I can brand, design and deploy entire products on my own... which is incredibly cool and fun, and Valuable(??), you'd think that my rates would go up and clients or positions would become easier to find. And Yet, I've never had inbound this dry, email outreach isn't working, nobody seems to be looking, at least not for what I have to offer. At this point I'm literally posting coupons on twitter.
+
+So I guess I have four intents here
+
+(1) To throw my experience into the pot as evidence of... something going on. If an experienced designer can now do the work of several people, why isn't that also becoming more valuable to the market?*
+
+(2) ofc I'm hoping some founder who needs a designer will see this and reach out. I do well with engineers and abstractions and I suspect I'd work well with anyone in here. Note even a successful REFERRAL and I will lovingly design or build something for you.
+
+(3) if you have any thoughts on how I, or other designer-builders like me, might change our approach or packaging, I am all ears and would very much appreciate your thoughts. See pieratt.com. (also see D. below)
+
+(4) I'd love to hear if anyone else is going through this? proof that I'm not just a fuckup would be worth quite a bit.
+
+*Four potential explanations I can see: 
+A. market is weak B. market is evolving at same pace and so no change C. Institutional lag, the state is not yet logging my type of tree, market admin requires clear roles for e.g. hiring and invoicing. D. I am presenting clear signals that I cannot see that are preventing me from finding work.",Numeric,pre-labeled (script)
+"Show HN: Scriber-Pro 2.0, a Mac app that transcribes m3u8 streams from web pages
+
+Hey HN, back last October I shared Scriber Pro, a Mac app that transcribes audio and video in a privacy first, low friction form factor- and thanks to your help it got to #6 in the Mac App Store's under Utilities that week. Today it still remains the lowest friction way to transcribe speech out of video or audio files. Now, Version 2.0 adds support for video on a web page via the pages m3u8 stream (the HLS format behind web video), and in a single step, transcribes it straight  on your Mac.
+
+Before this, the only way one could transcribe web video would be to pull the video web page was a browser extension, then you still need to transcribe it. Scriber Pro is the first standalone app that can perfrom the entire process seemlessly and easily, all it needs is the page link and it works it magic and hands you back the transcript of speech detected in the video. Getting this tool to work( outside a browser extension) took quite a bit of work, - and it paid off…  it just works.
+
+So if a recorded lecture on your school's course site, a webinar, news clip, Scriber can now transcribe it from (almost) anywhere
+
+The first 10 HN readers who click the button on the linked page get it free: the button shows you an App Store promo code along with a link to redeem it.
+
+It also pulls YouTube's own captions now and can take a batch of files at once, it runs on macOS 15.6+ on Apple Silicon. 
+Everything you transcribe goes into a forever backed up icloud library, with full search, tag, retreival and organization features anyone would expecet
+It's the lowest friction, one stop shop for all your transcription needs- Video - Web Fetch - Youtube. No subscriptions, just a one time $3.99 on the Mac App Store, Happy to answer questions!",Numeric,pre-labeled (script)
+"""I'm on a war footing"": Terry Tao and the crisis in math
+
+""https:&#x2F;&#x2F;archive.ph&#x2F;bid95"" rel=""nofollow"">https:&#x2F;&#x2F;archive.ph&#x2F;bid95</a>",Numeric,pre-labeled (script)
+"Show HN: SlopGrid – Create your own oneshot AI model benchmarks
+
+This is something I've been playing with for the last couple days - an app I vibecoded to arrange oneshot LLM visual benchmarks without the need to write any code. I do it form my phone so the excellence of mobile UI is high in the priority list.
+
+It is inspired by Simon Willison's benchmark writeups[0], basically you can recreate them in one go.
+
+Besides text and images, it supports SVG outputs and whole static websites, which is where benchmarks get the most interesting.
+
+Additionally, I added the ability to alter chat history for the chat completion API, which I think is useful for model red teaming (or if you just want to see how different models apologize) - but I haven't found any impressive uses of that feature yet.
+
+This thing helped me improve my intuition on different SOTA models' strengths and weaknesses; check out the various examples on the website, and feel free to create your own
+
+[0] ""https:&#x2F;&#x2F;simonwillison.net&#x2F;tags&#x2F;svg&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;simonwillison.net&#x2F;tags&#x2F;svg&#x2F;</a>",Numeric,pre-labeled (script)
+"Show HN: Sufuku – Sudoku, but Numbers Repeat
+
+Sudoku is short for ""the digits must be single"". I wondered if inverting this would work: ""the digits must be repeated"". And so, by swapping ""doku"" for ""fuku"", Sufuku was born.
+
+In short, instead of using numbers 1-9 for a 9x9 board, you use 2 twice, 3 three times, and 4 four times (for a total of 9).
+
+It plays differently from sudoku than I expected. I assumed it would be simpler, since you have fewer digits. But once I settled on irregular region shapes, I discovered that it can also be quite difficult. In sudoku you eliminate a number by placing it; in sufuku a number is only eliminated once all its copies are placed. So you count lines instead of mostly scanning the board.
+
+As I want the game to be approachable, the daily boards are mostly 6x6 or 7x7 for now. Larger boards are more interesting because 6x6 has only one set of numbers: [1, 2, 3]. But for 9x9 you can go with [2, 3, 4], [1, 3, 5], or [1, 2, 6] (I skip pairs like [2, 7] because I consider them boring). 10x10 is the first one that offers a set of four numbers: [1, 2, 3, 4].
+
+Of course it turns out the idea has been around for some time: 2-3-4 Sudoku (Uwe Wiedemann) and Sudoku Ripeto (Miguel Palomo). I'm curious what you make of it as a daily game.
+
+Today's Friday, so the board is on the harder side. You can play easier boards in this week's archive.",Numeric,pre-labeled (script)
+"Show HN: I made puzzle game IT THINKS – you build a GPU from logic gates
+
+Hi HN,
+
+i am developing IT THINKS!
+
+in this puzzle game you start with a single NAND and work your way up through adders, small processor, parallel cores and finally a GPU like machine. at the end of the game the chip you designed runs an (tiny) actual neural-net inference.
+
+you can find the free browser demo on link. it covers the first chapter(logic puzzles) daily puzzles and community puzzles. full game will be available end of november on Steam.
+
+if you have any feedback, let me know",Qualitative,pre-labeled (script)
+"Show HN: OAuth Mock Server
+
+I have developed a mock OAuth server which can be used as a drop-in replacement for testing OAuth integrations in end-to-end tests.
+
+It supports Google, Microsoft, GitHub and other providers.
+
+See: ""https:&#x2F;&#x2F;github.com&#x2F;atagon-GmbH&#x2F;oAuth-mock"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;atagon-GmbH&#x2F;oAuth-mock</a>
+
+I hope it works and helps someone!
+
+Have a nice day ((-;",Numeric,pre-labeled (script)
+"Ask HN: macOS 27.x upgrade without Siri eating disk space?
+
+Hey folks, Anyone know if it's possible to upgrade to macOS 27.0.1 without Siri eating up all of the disk? I only have ~70G left on this Mac and with the posts I've seen of late, I'm concerned upgrading will eat all the disk space left on this Mac :&#x2F;",Numeric,pre-labeled (script)
+"Show HN: Check if your AI Agent looks good for clients
+
+Just sign in with a free account, go to the Agents Scoring section, and paste the public URL of your x402&#x2F;mpp agent.
+
+It will tell you what can be discovered by clients, what you can improve, etc.",Numeric,pre-labeled (script)
+"Show HN: OutClocked, a nearly impossible daily trivia game
+
+I really wanted to use an em dash in that title, but now I feel like I can't.
+
+This is a time-based trivia game with a bit of a twist. 7 questions. 60 seconds to answer the first. 0.94 seconds to answer the last. If you get any question wrong or let the timer expire you're out for that game.
+
+Let's also get this out of the way: I used Claude Code to build this game. The first version took a couple of hours and in total I've spent about 10 hours tweaking and improving it. Happy to talk about that!
+
+The stack is simple: one Cloudflare Worker and D1 (SQLite), plain JS, no framework
+
+If you're a Soundgarden fan you already know what inspired the name of the game, the song Outshined.
+
+What inspired me to create the game is I love trivia (even though I'm not great at it) and a friend of mine built a nearly impossible game completely different to this. That got me thinking what kind of nearly impossible trivia game I could make.
+
+So far 92% of players fail, which makes me think I should make question #7 more difficult because 8% are getting all 7 questions correct.
+
+Totals since launch (not including my own playing&#x2F;testing):
+
+- 651 games played 
+- 178 (26%) out on the first question
+- 54 (8%) got 7&#x2F;7 correct
+
+I've had feedback that has run the gamut from ""I hate time games"" to ""This is so fun!"" so I don't even know what to think about feedback anymore. Happy to hear yours!",Numeric,pre-labeled (script)
+"Show HN: Videre – a Rust CLI to manage your photos and videos with joy
+
+Long story short it's a media library licensed under Apache2. It cares about your privacy. It doesn't send any data and it doesn't have telemetry. It is local only project. It' helps you to organize, view, search and do plenty of things with your photos and videos locally. If you are interested in it's story you can read on OR visit ""https:&#x2F;&#x2F;videre.sh"" rel=""nofollow"">https:&#x2F;&#x2F;videre.sh</a> for installation instructions.
+
+I have been collecting my photos and videos since 2000s. My collection grew exponentially when I bought iPhone 3GS back in 2010. I had roughly 1TB of backups in multiple iPhoto folders. It was nice at the beginning but than I realized that there are multiple copies of files in multiple backups. It's not just one or two, they were like thousands because I copied them here and there time to time from drive to external drive and import from iCloud etc.
+
+So There was a big chunk of unnecessary data sitting in my external drive. I tried iPhoto itself to resolve it but it wasn't good enough. So I decided to write small app (dedupe) to eliminate them by myself. The story of `videre` started like that. There is a longer story in videre.sh&#x2F;blog if you would like to read.
+
+`videre` is local &amp; privacy first CLI tool. You can do many things with it such as duplicate elimination, date&#x2F;time fix with EXIF&#x2F;mtime support, recognise&#x2F;cluster faces automatically, date grouping, event detection, map, advanced search via composable filters and lucene syntax, import&#x2F;export Google&#x2F;Apple&#x2F;Adobe, XMP support, tags&#x2F;keywords etc. Other media libraries have similar features but the difference of `videre` is CLI. Since it runs in terminal it's very convenient to use it via AI Assistant. So you don't even have to know all those commands and their usages. You may ask to you AI assistant: ""Find my photos with George in NY at last summer by using videre"" and that should be enough (of course you need to define who is George via `videre gallery` People section first).
+
+I enjoy using it. It's not because I built, it's a strong tool and you can do many things. Especially it's gallery command and web UI is strongly recommended. I bet all of you need such tool at some point so just give it a shot. Installation is very easy and then scan some files and see `videre gallery` UI&#x2F;UX. Hope you enjoy it.
+
+Github: ""https:&#x2F;&#x2F;github.com&#x2F;aegea-dev&#x2F;videre"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;aegea-dev&#x2F;videre</a>
+Docs: ""https:&#x2F;&#x2F;docs.videre.sh"" rel=""nofollow"">https:&#x2F;&#x2F;docs.videre.sh</a>",Numeric,pre-labeled (script)
+"Show HN: Cr34te.it – a website anyone can rewrite one turn at a time with AI
+
+Yeah I built this out of a silly idea a couple of weeks ago.
+
+You can change what the website shows. You may change minor things or add something completely new. It bascially works like that:
+
+1. You claim a turn. If the queue is empty, you start right away.
+
+2. When it's your turn, you copy a prompt to a web based AI or - more comfy - our local coding agent.
+
+3. The AI will fetch the current status of the website and ask what you want to change.
+
+4. You answer - and the AI gets back a JSON that you paste back to the website - or the coding agent POST it directly to an endpoint.
+
+5. Submission will be moderated against all of the things you must expect when anonymous people post stuff. There are a couple of apparenty restrictions. You will find out.
+
+6. Eventually it's being published.
+
+Historical submissions are being preserved, you can browse them.",Numeric,pre-labeled (script)
+"Show HN: OpenRegistry – live company filings directly from 80 gov registries
+
+hi hn,
+
+Sophymarine OpenRegistry is the first ever MCP and API that provides live and raw company profile, director, shareholder, financials and filings directly from official government registries around the world, created based on this principle from day 1.
+
+It doesn't use third-party databases or aggregators. You can try it on ""https:&#x2F;&#x2F;openregistry.sophymarine.com"" rel=""nofollow"">https:&#x2F;&#x2F;openregistry.sophymarine.com</a>.
+
+What is different:
+* direct from official sources only. no third party. We do not mix any third party data in our system.
+
+* live data from official sources. each call is a fresh request on official government registry (except a 1 minute cache).
+
+* you get raw response from registries, not processed.
+
+Coverage:
+80+ jurisdictions, including the United Kingdom, Ireland, Australia, Switzerland, Norway, France, Spain, Finland, Czechia, Poland, Taiwan, Canada, Belgium, the Isle of Man, Iceland, Israel, Thailand, Georgia, Romania, Portugal, New Zealand, the Netherlands, Monaco, Hong Kong, South Korea, Japan and Cyprus, plus 60 more jurisdictions across offshore, Gulf and Asian regions.
+
+Known gaps:
+We may not cover data from historically leaked sources.
+
+Feedback welcomed.",Numeric,pre-labeled (script)
+"Show HN: Deterministic AI Agents Guardrail
+
+Hi all,
+With everybody (and especially companies) using AI agents, I have decided to work on a deterministic guardrail tool for AI agents.
+
+What does it mean? 
+On the same way that an AI agent can run “terraform plan”, it can also run “terraform destroy”. The tool ALLOWS or BLOCKS AI commands accordingly, to avoid unexpected “tragedies”. 
+Please, note that this is not a hardened sandbox. The tool can be bypassed by a capable person or process, since this is my first proof of concept.
+
+I would like to present it to the community and receive honest feedback (pros, cons, issues, concerns, is it really useful? Would companies be interested in using it?).
+Please, feel free to visit the GitHub page, read more details in the README file and download it to try.
+
+Thanks!!",Qualitative,pre-labeled (script)
+"Rosemont Residency Master Plan – Project Layout and Details
+
+design and exceptional privacy, where every corner has been crafted with your needs in mind. Located within Aditya World City on NH-24 in Ghaziabad, the Rosemont Residency master plan reflects a modern, secure, and well-planned lifestyle. The project’s layout is designed to ensure that families living in its exquisite 3 BHK apartments enjoy abundant natural light, fresh air, and privacy. The homes feature spacious, airy rooms, contemporary design, and wide balconies that offer beautiful views.",Numeric,pre-labeled (script)
+"Ask HN: A platform where anyone can earn money by advertising any product
+
+Okay so the idea is :-
+
+A platform where any company can promote its product by running a campaign competition.
+
+Lets say a company wants to promote a product and thus it lists a product on the platform.
+
+Now any user can come and register on the platform and start making content wrt that product - it can be anything from a reel to a youtube video , even a linkedn post or a blog article - content would be posted by the user on his personal account. The user can make an advertisement , unboxing video , product review , ""how to use the product"",etc. I mean any content around the product can be made &amp; posted.
+
+Now only the top 10% posts would get a reward &amp; reward would be distributed in the same ratio as the reach. So a normal creative human can surpass an influencer's earning if he actually made something really viral.
+
+Its a win win for both the brand &amp; the user.
+
+Example - 
+Brand A wants to promote a product B and pays X amount to platform.
+The platform will launch the campaign with a total budget of lets say  (0.70 * X).
+
+And then based on reach of each post the reward would be divided among top 10% folks.
+
+I am just brainstorming on this idea atm, what do you guys think of this model&#x2F;Idea ?",Numeric,pre-labeled (script)
+"Show HN: Pull Presence – See who else is reviewing a GitHub pull request, live
+
+Pull Presence is a Chrome extension that gives you visibility into who else may be reviewing a GitHub pull request in real time.
+
+Why? Not sure if anyone else encounters this but I have a few times when I pinged someone asking for a review and then they mentioned they are already reviewing it. I thought to myself, ""wouldn't it be neat to see who is currently reviewing?"". Also as a reviewer, I think it would be nice for the author to know that I'm currently reviewing. Not sure if this resonates with anyone else.
+
+The way it works is, once you install the extension, you'll need to sign in to GitHub. Then, whenever you open a pull request, the extension connects to a live room for that PR over a websocket. You’ll see who else is viewing it, and when someone goes idle (no activity, or they switched tabs) or leaves. And due to the nature of it, you can only see others that also have the extension installed.
+
+I think it's kinda neat (maybe i'm just biased) but feel free to let me know what you think.",Qualitative,pre-labeled (script)
+"Show HN: A fun little app to play with chaos
+
+So I fell in love with Physics when I read Chaos by James Gleick and I didn't actually know how to program at the time but much of the book was rooted in the concept that chaotic non-deterministic behaviour can emerge from a few simple rules. Probably the best known example is the butterfly effect but there are many others. 20+ years later I am able to vibe code this app to visually demonstrate this simplicity and chaos. Would love to get some feedback on the app. Please be as honest as possible. Or just some chats about Chaos.",Numeric,pre-labeled (script)
+"Unity Mass-Suspends Accounts
+
+Years ago after the last Unity CEO issue, a lot of Unity developers began searching for a new development platform due to pricing changes. Unity tends to send a lot of information that developers ignore via email, however last Tuesday they sent two emails in quick succession (a) TFA has been disabled on your account and a follow up email (b) Your account has been suspended.
+
+In a world of phishing attempts - I personally ignored these emails only to discover today that Unity had indeed suspended my account. Considering the many, many thousands of dollars I have spent on Asset Store purchases over the years - and that they are now locked in this account - in addition to the fact that Unity cannot be used without either unsuspending the account (or creating a new one)... I'm concerned as to why Unity went about doing it this way. Was there a data breach? Or is it just plain incompetence on their part to approach the problem this way?
+
+For those of you yet to discover your account has been blocked you can find support information here: https:&#x2F;&#x2F;support.unity.com&#x2F;hc&#x2F;en-us&#x2F;articles&#x2F;54616227806612-My-Unity-account-was-suspended-after-the-2FA-deadline-How-do-I-get-it-back
+
+For me, it just feels like another nail in the coffin; I'm not using Unity professionally at the moment because of fears like this. (Insert greybeard rant on ""things weren't like this when we owned our software and personal computers during the 'good old days'). But wow. If this had happened a few years ago when I was consulting and earning 100% of my income through Unity I would have been shocked.
+
+On top of this I had a reddit post blow up and fill my email box up.
+
+While I'm ranting - I'll end up on a positive note... Deepseek had an outage on Wednesday &amp; users got refunded a weeks worth of token spend - it was delightful to see and to me this is what it looks like when a company is super-focused on retaining their users.
+
+Peace out.",Numeric,pre-labeled (script)
+"Show HN: Three philosophers vote on your questions
+
+I'm RN developer in South Korea, i built this on my own.
+Non-native speaker, sorry for my English.
+
+- Sometimes it is very hard to decide something.
+
+- So I made simple service for get decisions from ""Three Old Awesome philosophers’ vote"".
+
+- No sign-up needed.
+
+- Using Jev(Probabilistic Classification Model) to calculate philosophers’ emotion and decision. These result are based on their written philosophy.
+
+- While typing your question, philosophers show their emotion through their faces(simply created by blender 3D).
+
+- For make questions to YES&#x2F;NO style, so I use Haiku to polishing questions.
+
+- At night mode, philosophers’ opinions is way stronger than day lights.
+
+- This service doesn't save your question, it temporarily exist on our server memory within one hour. but it will be sent to TypeSafe and Anthropic for question&#x2F;decision processing in Jev and Claude.
+
+I'm looking forward to hear your opinions, like you agree with their decision result or your favorite philosopher or something.
+
+Thank you for read it!",Numeric,pre-labeled (script)
+"Ask HN: Has anyone started using OpenAI Agents API
+
+If you are building your agents, or just out of curiosity, have you tried the OpenAI Agents API yet?",Qualitative,pre-labeled (script)
+"Ask HN: What world do you want to live in?
+
+Everyone on here is quite familiar with the tech tool potential and the dystopian use trends. In some large part, these are social decisions. What laws do you want to see that limit tech, and that allow tech?",Qualitative,pre-labeled (script)
+"Show HN: Tunedaway – a little place to listen to music
+
+Pick a scene, put some music on, and leave it open. There’s a rainy café, a train ride, a campsite, and a few other places. Each has its own music and ambient sounds.",Qualitative,pre-labeled (script)
+"Ask HN: Which books did you read at least twice?
+
+Which books did you read at least twice? Please give author, title, and how often you have read it.
+
+For me the (probably incomplete list) is:
+
+Connie Willis: Doomsday Book (three times)
+
+Neal Stephenson: Cryptonomicon, Anathem, Quicksilver, The Confusion, The System of the World (twice or three times)
+
+Frank Herbert: Dune (three times)
+
+Tolkien: Lord of the Rings (three times)
+
+Stephen King: Salem's Lot, The Shining, It (three times each)
+
+Stephen King &amp; Peter Straub: The Talisman (twice)
+
+Vernor Vinge: A Deepness in the Sky, A Fire Upon The Deep, Rainbow's End (each twice)
+
+Tracy Kidder: The Soul of a New Machine (twice)
+
+Larry McMurtry: Lonesome Dove (twice)
+
+Ross Thomas: Chinaman's Chance (twice)
+
+William Gibson: Neuromancer, The Peripheral, Agency (each twice)",Qualitative,pre-labeled (script)
+"Show HN: Trustmux – Async tmux from your phone, now in Ubuntu, Debian, Fedora
+
+I'm Dustin Kirkland, author of Byobu. I recently flew to Australia and kept nudging my Claude, Codex, and Bash jobs along back home from somewhere over the Pacific, at 700ms of latency.
+
+That's what Trustmux is for: secure, asynchronous access to your tmux or Byobu sessions from your phone.
+
+I first posted this in June and since then there have been many point releases, lots of new features and testing, and a growing base of users. It's now packaged in Ubuntu 26.10, Debian, Fedora, and Chainguard OS.
+
+Why not SSH, Mosh, or Claude Mobile?
+
+- SSH&#x2F;Mosh: a live, synchronous connection is brutal on a phone. Latency and WiFi-to-cellular handoffs make it laggy and fragile.
+- Claude Mobile: great for Claude, but I wanted access to whatever is running in my tmux session: shells, Claude, other code assistants.
+
+Trustmux is async by design. Connect, look, type a command, disconnect, with no fragile connection state to babysit.
+
+Security: TLS with real certificates, end to end. Uses Tailscale (cert provisioning via tailscale serve, no port forwarding) optionally, bind to your own network address, or bring your own or self-signed certs. Two security experts reviewed the design and I implemented their recommendations. More scrutiny is very welcome.
+
+Quick start:
+
+<pre><code>  trustmux enable
+  trustmux start
+  trustmux pair   # shows a QR code if qrencode is installed
+</code></pre>
+Open the URL on your phone, enter the 6-digit code, and add it to your home screen. It's a PWA, so there's no app store.
+
+Install: apt, dnf, pip install trustmux, or brew tap dustinkirkland&#x2F;trustmux &amp;&amp; brew install trustmux
+
+Under the hood: Python, libtmux, WebSockets, Tailscale, and no polling. The UI shell is cached for offline use. Part of Byobu, GPLv3. Trustmux isn't affiliated with the tmux project.
+
+""https:&#x2F;&#x2F;trustmux.dev"" rel=""nofollow"">https:&#x2F;&#x2F;trustmux.dev</a>
+""https:&#x2F;&#x2F;github.com&#x2F;dustinkirkland&#x2F;byobu"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;dustinkirkland&#x2F;byobu</a>
+""https:&#x2F;&#x2F;pypi.org&#x2F;project&#x2F;trustmux&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;pypi.org&#x2F;project&#x2F;trustmux&#x2F;</a>",Numeric,pre-labeled (script)
+"I built an API that call data
+
+Test it in Alrithm.
+alrithmapi.vercel.app",Qualitative,pre-labeled (script)
+"AI as a part of capitalism – the right way to go
+
+The way things go now are obsiously flawed.
+
+1. AI companies objective is to get rid of a very large part of jobs, thus converting a large part of consumers into jobless people - who are very bad at consuming.
+
+2. They also take other people's and companie's content for free, turning them into own profits, thus removing any incentives to create such content in the future.
+
+Proposed solution.
+
+1. All data models are created anew.
+
+2. All of the model content should be marked and paid for to its creators in a proportional amount to each specific training data usage.
+
+3. No payment = no use in the model, unless a creator provides a free license to LLM's.
+
+4. Any commercial data needs an explicit permission to be used in training.
+
+5. Profits made on data with no explicit owner (say, Shakespeare) are to be paid off to the respective country.
+
+6. This policy is enforced worldwide.
+
+When implemented, this policy will ensure that:
+
+a. Many people whose jobs suffer remain part of the AI economy or can become parts of it;
+
+b. Open-source software, photographers, artists, etc. will receive their rightful share of AI profits;
+
+c. People will have a very good incentive to keep on creating.",Numeric,pre-labeled (script)
+"Ask HN: Has anyone decompiled Claude Code yet?
+
+I’d be interested in examining it. How about codex?",Qualitative,pre-labeled (script)
+"How to make my business survives it's first 5 years?
+
+I want to know how can I make my business survive? Please offer me some advice and guidance. And before you do I hope you all look on the past situation was it mostly luck that you survived or your skill. Because I'm afraid what may work for you may not work for me.",Numeric,pre-labeled (script)
+"Show HN: Gitsu.app – A Linear-alternative built on GitHub Projects
+
+Issue tracking isn't dead. It's moving closer to code.
+
+Gitsu is a fast, AI-native, keyboard-first Mac and web app on top of your existing GitHub Projects and issues. Everything syncs with GitHub in the background.
+
+Gitsu is free on the web. Pro is $4.99&#x2F;seat&#x2F;month and adds the native Mac client, advanced AI panels, and MCP agent workflows.
+
+Give gitsu.app a go and write us your suggestions&#x2F;opinions&#x2F;bug reports.",Numeric,pre-labeled (script)
+"Show HN: Kitaphone – Call mobile phones and landlines directly from the browser
+
+Hi HN Folks,
+
+I have been building Kitaphone a web app that lets you call regular mobile and landline numbers directly from your browser. The idea is simple, there are still plenty of situations where apps like WhatsApp, facetime and other internet calling apps aren't an option. For example, when you are abroad and need to call your bank, an airline, or a government office or your son&#x2F;daughter's school.
+
+I wanted to make those calls possible without requiring users to install another app or buy a sim card or even commit to a monthly subscription. I built Kitaphone using Next.js and Twilio, One of the more interesting challenges has been making browser based calling reliable, especially when it comes to dealing with microphone permissions, sending keypad inputs to automated phone systems, and preventing abuse of free calling credits.
+
+The product is live and supports international calls to regular phone numbers, users currently need an account to make calls partly because each call has a real telecom cost. I am still improving it and learning from the people using it by receiving feedback.
+
+Fun fact: ""kita"" means our in Bahasa Malaysia, since I am based in this beautiful country and their people are so warm and welcoming I was truly inspired by this place and decided to name it our phone.
+
+Interested to know or receive feedback from HN folks who worked with WebRTC or VoiP in the past.",Numeric,pre-labeled (script)
+"Show HN: Beeline Multiplayer Agent Harness
+
+Shipped Beeline today. 
+It's a team chat for humans and agents - a kind of multiplayer harness. You can bring your codex, Claude code, opencode subscriptions and also works with pi and goose. We built beeline itself with early versions of beeline, and use it to build our other projects - it's boosted productivity quite a bit for us.
+
+Demo video: ""https:&#x2F;&#x2F;youtu.be&#x2F;ACdelpZC2z4?is=pP6MFxJODvKcGjQt"" rel=""nofollow"">https:&#x2F;&#x2F;youtu.be&#x2F;ACdelpZC2z4?is=pP6MFxJODvKcGjQt</a>
+
+The key insight is that humans do their best work in teams, but agentic development has so far been single player. This has led to people having to forward AI slop to each other or to try to deliver context through various shims like meetings or task tickets.
+
+Beeline is a single control plane for your entire team, both human and agent, and is designed to help your team do its best work.
+
+Things to expect:
+- This is a multiplayer agentic harness, not a slack substitute. It's best for focused product teams doing or relying on engineering tools and shipping code.
+- Open source and not a business. We use beeline internally, and just thought it would be a really cool thing to exist in the world. There are still lots of bugs
+- Sweepstakes things like computer use, lots of third party connector integrations are there. What's cool is that beeline agents can automate _auth_ through trustysquire.ai - they can sign up to most services and APIs without you having to do it for them. 
+- A new primitive called workflows, that are skills for teams of agents. 
+- multi way call with your entire team, humans and agents. I like it quite a bit.
+
+Looking forward to feedback!",Numeric,pre-labeled (script)
+"Show HN: Wayseer – A native desktop app for browsing real-time data
+
+As an IT professional, I felt a distinct lacking of a real-time tool for tracking down problems in complex systems. I have created Wayseer Desktop as a way to explore more effective ways to explore live systems.
+
+There's a very functional free version, and paid options that unlock additional features.  I'm curious what you all think of the approach.  I'm a systems engineer by trade (with some development experience), not a developer, so I have relied on AI to do the heavy lifting while I request features, report bugs and perform as much manual testing as I feasibly can.
+
+There are bound to be bugs... but it is still very young and has a (hopefully) long future in which refinements can be made.",Qualitative,pre-labeled (script)
+"Show HN: Inherit – Zero to Iac
+
+There are several reverse terraform products out there. Some have paywalls, some are outdated. I wanted to try my hand at creating one that would start from nothing and produce an iac repo that plans, imports, and has a useable state. I'd love to hear your thoughts and feedback.",Qualitative,pre-labeled (script)
+"Ask HN: Thoughts about the Gemini Web app?
+
+I'm a long time user of Gemini, but recently started exploring other options, and it just feels so behind. with ChatGPT, it can call tools and it actually feels like its taking effort.",Qualitative,pre-labeled (script)
+"Tesla Roadster
+
+""https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg"" rel=""nofollow"">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a>
+
+""https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215"" rel=""nofollow"">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",Numeric,pre-labeled (script)
+"Tell HN: Google Argon on a Pro subscription is worthless
+
+Maybe that was true with Fable as well.  But one prompt which took 5 minutes of clock time, used 50% of the resources of a Pro account for the 5 hour window.",Numeric,pre-labeled (script)
+"Show HN: Weatheristic.com to answer questions other weather sites don't
+
+I built this for myself. I often have questions I want quick answers to such as ""how cold did it get last night?"", ""I just put down fertilizer, when will it rain next?"", ""is today unusually cold or warm for this time of year?"" Weather sites I tried made me dig for those answers, if they were there at all (the last few days of weather often can't be found).
+
+I used to watch a few stocks closely, and Weatheristic is actually inspired by those types of charts. It has day&#x2F;night bands with an ultra easy to understand temp trend line, and you can zoom and scroll. I added data I'm interested in, such as a typical high&#x2F;low band, record high&#x2F;low for today, moon phases, and various other items in the Overlays dropdown.
+
+One deliberate choice: the temperature scale doesn’t rescale. It stays at roughly -4F to 86F (−20C to 30C) most of the time, so the line’s height on the y-axis tells you how warm it is before you read a number. So if the graph seems off center to you, that's by design.
+
+Data comes from Open-Meteo. The historical records come from their reanalysis archive, which is modelled data rather than weather-station readings, so daily extremes might be a bit off. It’s a static D3 site. No account, no ads, no cookies. I count visits with self-hosted Plausible (cookieless, no personal data; it lives at analytics.povodex.com because I run it for my other projects too).
+
+I use this every day, love it, and I’d love to know if anyone else likes this format.",Numeric,pre-labeled (script)
+"Show HN: Rad PDFs – Hacker News for PDFs Only
+
+For the past few years I have found myself not wanting to be at a screen most of the time. I convert most blog posts I plan on reading to PDFs and print them out. This is a site for people to link their PDFs for others to read.
+
+You are encouraged to submit PDFs in A4 or 8.5x11 for print-friendliness.",Numeric,pre-labeled (script)
+"Ask HN: Do you talk to bots online? How has it changed?
+
+I comment from time to time.
+
+Sometimes I notice I'm going back&#x2F;forth with a bot.
+
+Anecdotally, 2+ years ago bots were clearly stupid.
+
+I'm recently encountering a lot less obvious bots, and a lot more lawyer-sounding commenters.
+
+This has me concerned, because I'm sure the bots are still out there, but their tactics have improved.
+
+Do you avoid bots? How do you identify them? Have you noticed any changes in them?
+
+Apologies if this is not a valid HN question topic.",Numeric,pre-labeled (script)
+"Show HN: Luksmith – Mount LUKS Ext4 Drives Natively in Finder on Apple Silicon
+
+I’ve recently moved over to macOS this summer and previously I heavily used Linux (still do as I have a homeserver running Arch and Omarchy Thinkpad for fun). I have a few LUKS Encrypted hard drives with photos I wanted on my Mac and then quickly realized that there’s no native way to open the drive.
+
+So I spent some time to make luksmith, essentially decrypting the luks drive, mounting the underlying EXT4 drive and using Apple’s Userland FSKit Library to make it appear in the finder window to make it as close to home on a Mac as I can (with journaling caveats because I can’t control which order writes happen in).
+
+It’s completely free to read and copy files from the drive if you try it out ‘brew install --cask betizzel&#x2F;luksmith&#x2F;luksmac’. And $9.99 one time purchase to unlock writing to the drive. No account needed, no telemetry shared back to me, no network connections made.
+
+Requires Apple Silicon + macOS 26. Full format support and limitations here: [""https:&#x2F;&#x2F;luksmith.app&#x2F;#formats"" rel=""nofollow"">https:&#x2F;&#x2F;luksmith.app&#x2F;#formats</a>](""https:&#x2F;&#x2F;luksmith.app&#x2F;#formats"" rel=""nofollow"">https:&#x2F;&#x2F;luksmith.app&#x2F;#formats</a>)
+
+available on the appstore: ""https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;luksmith&#x2F;id6806869711?mt=12"">https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;luksmith&#x2F;id6806869711?mt=12</a>
+
+and the website: ""https:&#x2F;&#x2F;luksmith.app&#x2F;#formats"" rel=""nofollow"">https:&#x2F;&#x2F;luksmith.app&#x2F;#formats</a>",Numeric,pre-labeled (script)
+"Show HN: Guess the LLM – read an answer and guess which model wrote it
+
+Hi HN, I made a game to test if people can really tell AI models apart.
+
+Models from all the frontier labs answer the same question. You read one answer and guess who wrote it. You can also pick just the models you want to compare.
+
+I made it and still only get 5&#x2F;10 lol. Curious how you all do.",Numeric,pre-labeled (script)
+"Ask HN: How did Call of Duty fix ""update requires restart""?
+
+Call of duty for years has performed automatic updates when launching the game that required the user to restart the game once applied. This was a very frequent annoyance for many players. Supposedly this is fixed in the newest title launching soon, and I'm very curious what the architecture was that lead to this UX persisting for so long. I would love to hear any first hand accounts, please do not speculate, I can speculate myself.",Qualitative,pre-labeled (script)
+"Show HN: An improved kokoro distillation in 9MB
+
+I'm a 47yo full stack developer that's investing all his free time (and not only that) into thinkering, building, researching with AI.
+Some days ago I found a paper about distilling kokoro on a ~9MB with around 25x RTF. It was very interesting and since the experiment was on a single english voice and I'm Italian, I wanted to see if I could manage to distill it in my language but the training recipe wasn't replicable.
+So I spent some days researching, experimenting and found the why and even some more tweaks to improve the overall result.
+The demo I linked shows you how close it is to the original kokoro and you can play straight in the browser (If you use the package locally it's faster)
+
+Paper: ""https:&#x2F;&#x2F;doi.org&#x2F;10.5281&#x2F;zenodo.23400040"" rel=""nofollow"">https:&#x2F;&#x2F;doi.org&#x2F;10.5281&#x2F;zenodo.23400040</a>
+Code (Apache-2.0): ""https:&#x2F;&#x2F;github.com&#x2F;MithrilMan&#x2F;teacher-in-the-loop"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;MithrilMan&#x2F;teacher-in-the-loop</a>
+Weights: ""https:&#x2F;&#x2F;huggingface.co&#x2F;MithrilMan&#x2F;teacher-in-the-loop"" rel=""nofollow"">https:&#x2F;&#x2F;huggingface.co&#x2F;MithrilMan&#x2F;teacher-in-the-loop</a>
+
+pip install teacher-in-the-loop
+
+P.S.
+I wanted to publish the paper on arXiv but I need to be endorsed, would be nice if anyone that can help me could endorse me arxiv.org&#x2F;auth&#x2F;endorse?x=GPI7BZ
+Honestly would be just to be added to the hf papers, I don't seek fame nor fortune lol",Numeric,pre-labeled (script)
+"Show HN: Endo – A Higher-Order Harness
+
+Endo is a Higher-Order Harness (HOH).
+
+From the easiest concept to understand to the more complex ones, Endo gives you:
+* A single, simple UI to use any agent provider with your existing subscriptions, and hot-swap agents right in the middle of a session.
+* An orchestration layer, which I call HOH, allowing arbitrary composition of agents to achieve any workflow. A fun case I tried was asking Fable and Astra to mock a presidential debate.
+* An agent protocol that abstracts any agent. The key insight here is that every LLM is an agent—instead of treating the LLM as just one node inside an external ReAct loop.
+
+Endo was a concept formed while I was building OpenChart (""https:&#x2F;&#x2F;github.com&#x2F;longsurf-ai&#x2F;openchart"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;longsurf-ai&#x2F;openchart</a>). To power trading workflows, I needed to support scenarios where strict determinism is required, while still keeping the flexibility of an agent's inference-time decision-making capability. A new form factor was needed between rigid n8n-style workflows and open-ended ReAct loop agents.
+
+Thus the creation of Endo. Endo is short for Endomorphism, a term rooted in category theory and functional programming. An endomorphism is a function that transforms an object into another object of the same type. Similarly, Endo itself is built purely on functional programming principles, relying heavily on Effect (""https:&#x2F;&#x2F;github.com&#x2F;Effect-TS&#x2F;effect"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;Effect-TS&#x2F;effect</a>).
+
+..And if you have patience to speak technical jargons, Endo is:
+* An agent orchestration layer—Higher-Order Harness (HOH)—where an entire agent is treated the same as a single LLM call, enabling arbitrary composition of extremely complex workflows.
+* A way to abstract any harness into a standardized protocol, where raw models and agents behave the exact same way, in a KV-cache-friendly manner.
+* A workflow engine that enables arbitrary composition of agents with a single workflow language.
+
+It's completely open source, and if you think this idea is cool, let's build together. Just for the fun of it.",Numeric,pre-labeled (script)
+"Show HN: A music notation editor Claude can edit while you watch [video]
+
+I’ve been working on a music notation editor in Swift for iPad and Mac called Autograph.
+
+""https:&#x2F;&#x2F;autographmusic.com"" rel=""nofollow"">https:&#x2F;&#x2F;autographmusic.com</a>
+
+It's a 28 day free trial.
+
+I'll be around for any feedback &#x2F; questions.
+
+Thanks!",Numeric,pre-labeled (script)
+"Show HN: ƜackDown – Win64 Native Markdown Viewer
+
+Vibe coded in Rust, what more can you ask for?",Numeric,pre-labeled (script)
+"Show HN: Lopper – A Git Worktree Cleaner
+
+when I started using coding agents heavily, they began creating tons of Git worktrees. different tools like Codex, Claude Code, T3 Code, Orca, Superset, and others all put their worktrees in different directories, which made them pretty hard to find.
+
+I know you can just ask an agent to find them, and a lot of people do exactly that. but I wanted a deterministic solution that wouldn't depend on an agent getting things right or waste extra tokens.
+
+so.. I built Lopper!
+
+it's a tool that searches for git repositories and worktrees across different directories on your machine and shows them all in one place in a TUI, where you can inspect them and remove the ones you no longer need. it also has a CLI for scripts and agents, so they can manage worktrees more reliably.
+
+would you use something like this? what am I missing compared to just asking an agent to handle it?",Numeric,pre-labeled (script)
+"Show HN: Turbo Lisp – A Common Lisp IDE for macOS and the Terminal
+
+When Apple left Clozure Common Lisp behind by switching to Apple Silicon, I started kicking around the idea of building my own Lisp&#x2F;Objective-C bridge by combining Apple Documentation, the clang AST, and introspection of the Objective-C runtime.
+
+There was a CCL porting effort, but I really wanted to use SBCL anyway.
+
+Truth be told — what I really wanted was a 21st-century CLIM variant on top of modern AppKit 26. So I let that idea rattle around in my skull for a while — and eventually it bounced up against the memory of Ck (Curses-based Tk).
+
+Anybody remember that?
+
+I liked Tcl&#x2F;Tk and [incr Tcl] and it had always stuck in my head how great an idea it was to have something along the lines of CLIM for regular terminals as well as GUI.
+
+So anyway, I stumbled upon the open-source CLIM2 source still maintained by Franz, and the wheels commenced to turn.
+
+Oh yeah, and my very first programming environment had been Turbo Pascal. That integrated debugger was really something.
+
+And y'know, it all started to come together as an idea about modernizing CLIM and modifying Portable Hemlock to run on top of it — and integrating a Debugger with conditional breakpoints and Step In&#x2F;Step Out&#x2F;Step Over, CLIM presentations, Inspector...
+
+And in years past, I'd have just dreamed about it.
+
+But the past three years have been crazy. GPT4 was the first time I seriously tried to build things with an LLM. And I've been pushing the LLMs as far as they would go to build my intuition mainly.
+
+But up until this year they've been mostly crap.
+
+I used ""Build Common Lisp"" as my north star because the Dietz ANSI tests seemed like a nearly perfect product specification.
+
+Long story short: I threw away 7 attempts before I won ANSI — ""https:&#x2F;&#x2F;gitlab.com&#x2F;patchwork1-ai&#x2F;whateverlisp"" rel=""nofollow"">https:&#x2F;&#x2F;gitlab.com&#x2F;patchwork1-ai&#x2F;whateverlisp</a> — and while I was waiting for Claude and Codex to grovel through ANSI I was trying my hand at my grand idea of Turbo Lisp.
+
+Side note: my high score on ANSI is 21,916&#x2F;21,925 passing (99.96%); 21,925 executed; 9 failing.  And those 9?  Yeah I don't think you could pass those without failing 30+ other ones.
+
+So anyway — It’s called *Turbo Lisp* (based on SBCL). It brings together a Listener, debugger, object inspector, conditional breakpoints + stepper, and Zeta—a variant of Portable Hemlock that uses WhateverCLIM as its front-end.
+
+On macOS, it uses native AppKit UI through *Chattanooga, a Lisp&#x2F;Objective-C bridge I built*. It also runs in the terminal through *Oak Ridge, my Lisp port of Ratatui*. Both use *WhateverCLIM*, which is the CLIM2 code from Franz plus my own modernization, including *<i>presentations*</i>: displayed Lisp objects you can click and inspect.
+
+*v0.2.1 patch release* is available for Apple Silicon Macs, Intel Macs, and Linux x86-64. The Mac builds currently require macOS 26.
+
+I’m especially interested in hearing:
+
+* Does it install and start properly on your machine?
+* Can you find your way around the Listener, editor, and debugger?
+* Does the terminal interface work with your terminal emulator?
+* Where does it feel confusing, awkward, or broken?
+
+A report that says “I tried this and got stuck here” is useful. Please include your OS, CPU architecture, and terminal emulator where relevant.
+
+It’s still early, and I’m looking for honest feedback from people using it outside my own setup.",Numeric,pre-labeled (script)
+"Open Source Discord
+
+Hi, I just wanted to ask how many of you guys are tired of Discord and the trash features they added.
+As a gamer, I remember how discord was a good platform for talking and hanging out but it's been a long time from that feeling so I made my own discord, I used to live in ultra restricted country ( not north korea) and when they start blocking discord all of us needed to immigrate to either TeamSpeak or Steam voice chat but these two also have some flaws; for example, TeamSpeak is an old app even the new one (Teamspeak 5) has some grandpa UI that not anyone enjoy it top on that you can't share or easily share files.
+So I made my own Discord&#x2F;TeamSpeak clone. I hated that public Discord clone has a lot of complicated server setup. I wanted something that I don't need to set up for an hour, and it's also easy to work with, same as Discord but nothing complicated. 
+Would this app be interested for you? also it's opensource",Numeric,pre-labeled (script)
+"Ask HN: Any good polished email alternative to Proton Mail?
+
+I was in and out of the Proton ecosystem a couple of times, as a Visionary user. Ignoring the CEO politics and just looking at the product, I like how it is all clean and polished. But apart from Proton Mail and Proton Pass (which I do use), the rest just feels half baked. I would love an alternative that has a native email app, isn't toooo expensive, maybe has a family plan, and encryption is nice, but not needed. Anyone use anything like that? Oh, and using my own domain is nice as well. (popular alternative is Tuta, but I wouldn't consider that ""polished""). What's everyone using?",Qualitative,pre-labeled (script)
+"Ask HN: Frontier Capability on Average Computers
+
+I really want to find a way to get frontier-level intelligence on local hardware.
+
+I think some really cool ways to get this have been done already like the technique of spreading an LLMs weights across a fast-enough SSD and then only serving up an expert at a time on the GPU&#x2F;SoC.
+
+I have this idea to make a tool that lets people download several small open-weight models and they act like experts but are different very task specific models with a harness designed to keep track of their thoughts &amp; work to let normal hardware be able to get close to frontier (or just useful level intelligence).
+
+Basically, I want to have a model that acts like a router or decision maker where you start your chat with initially (say a coding task for example) and it decides what model does the work next. If it needs to research it writes down in an .MD what it needs to find out, if it needs to write code, another model starts working but the other models memory &amp; work get saved to an .MD (or folder of .MDs) and lets you get real work done but completely locally.
+
+This might already be done but its just an idea I had and I wanted to see what the smart people on the internet thought or how they would approach this. I might also just be able to ask AI.",Numeric,pre-labeled (script)
+"Show HN: Brod – Quick cloud to deploy AI apps
+
+Hi YC,
+
+With AI, we’ve started building entire web apps just by chatting. But once the app is built, there’s still a lot to do: push the code to GitHub, set up a database, configure user management and access control, and deploy everything.
+
+Brod makes this simple. Connect an MCP, deploy your app, and everything you need to get it running is taken care of.",Qualitative,pre-labeled (script)
+"Show HN: Slop City, a FOSS game that embeds social media posts
+
+Hi HN, I created this game with Codex Astra and Astra subagents. It went remarkably well. SLOP CITY is an autobiographical first-person lounge that embeds my TikTok posts. I use it to market my Digilore podcast app which is in the Apple App store.
+
+However this submission is not a shameless plug, only partially, because it's free and open source so I encourage everyone to download the code and ask Codex or another LLM to sync social media posts from any source. Or... try doing that by hand :)
+
+Just note that all trademarks would need to be replaced as called out in the license (which is AGPL-v3+).
+
+Enjoy!",Numeric,pre-labeled (script)
+"Show HN: Explanations and follow-ons for OpenAI/math
+
+The official openai&#x2F;math repo is closed to issues, PRs, and discussion.
+
+I made this app to share some explanatory videos that help us all make sense of the release, catalogue follow-ons and improvements that build on the openai research, and more broadly provide a set of community tools for distributed research.
+
+I am not a trained mathematician and most of the math exceeds my understanding. As such, the videos _are_ AI-generated, but IMHO, go a long ways towards helping folks like me understand the problems, proofs, and related ideas.
+
+Suggestions are welcome.",Numeric,pre-labeled (script)
+"Show HN: Forwarder.cc – Static-site forms sent to your inbox, pay per message
+
+TL;DR: 12 years ago I built a service that forwards simple HTML forms to an email address. I've been procrastinating on finishing it ever since, until today. You point your form at it and every submission lands in your inbox. It runs on credits, 1 credit = 1 message, no subscription. Perfect for static websites.
+
+—
+
+Hey folks, back around 2014, alongside my job as a software engineer, I was building a lot of static websites for my own clients, mostly small businesses that just wanted a simple site. To avoid headaches, I went fully static, often hosted on GitHub Pages and similar.
+
+But most clients also wanted a contact form, and a form needs a server running somewhere. I had my own weekend-hacked service for this, which literally just forwarded the form to the client's email.
+
+I didn't invent anything here: one service I particularly remember was FormKeep by thoughtbot, that I really liked.
+
+So I started building my own, mostly because I loved losing myself in side projects like this, and also because I was a cheap ass and thought I could do something similar for less, and without a subscription.
+
+By 2016 I had done about 90% of what I'm showing you today. I called it ""The Great Forwarder"". Everything was ready: backend, frontend, hosting, Stripe, landing page. I even had a designer friend help with the design (sorry, Valentin, if I've botched it since). Then I started another project, which took off right away and took all my attention for a while. Fun fact: that project has been using this service ever since, and almost every message ever sent through it came from there.
+
+So for years, I kept Forwarder.cc up to date, upgrading libraries and trying new ones: axios, got, Redux, Zustand, create-react-app, webpack, Vite… It became my laboratory for everything I wanted to explore, while always staying up and maintained (again, for my own use only).
+
+The only thing that ever held me back from launching it was a missing help center, and, more honestly, the fear of putting it in front of people.
+
+So today's the day: after 12 years of procrastination, I finally finished the help center.
+
+I know there are a ton of similar services nowadays, but anyway, what do you think of that help center?",Numeric,pre-labeled (script)
+"E Ink Kaleido 4
+
+""https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20261015180401&#x2F;https:&#x2F;&#x2F;www.eink.com&#x2F;news&#x2F;detail&#x2F;EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4"" rel=""nofollow"">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20261015180401&#x2F;https:&#x2F;&#x2F;www.eink....</a>",Numeric,pre-labeled (script)
+"Show HN: Life Sprites – custom trackers, briefings and guides
+
+There's a no login demo if you want to try it.  There's also an MCP server if you'd rather use your favorite or local AI.
+
+Landing Page: ""https:&#x2F;&#x2F;lifesprites.com"" rel=""nofollow"">https:&#x2F;&#x2F;lifesprites.com</a>
+Demo Page: ""https:&#x2F;&#x2F;lifesprites.com&#x2F;demo"" rel=""nofollow"">https:&#x2F;&#x2F;lifesprites.com&#x2F;demo</a>
+MCP Setup Page: ""https:&#x2F;&#x2F;lifesprites.com&#x2F;connect"" rel=""nofollow"">https:&#x2F;&#x2F;lifesprites.com&#x2F;connect</a>",Numeric,pre-labeled (script)
+"Show HN: Digs – For Passionate Music Explorers (Like Goodreads for Music)
+
+Hello everyone!
+
+I love finding new music, but I needed a better way to keep track of the albums and mixes I wanted to listen to. I also wanted to remember what I’d listened to and liked, and share my discoveries with friends.
+
+So I started building ""https:&#x2F;&#x2F;digs.fm"" rel=""nofollow"">https:&#x2F;&#x2F;digs.fm</a> as my passion project. You can think of it as Goodreads for music. It’s mainly for people who enjoy listening to whole albums and want to keep track of what they discover.
+
+The idea is simple, you can save music releases to three lists: “Want to Listen”, “Listened” and “Dig” (those you loved), and see what your friends have discovered. You can also:
+
+- Recommend releases to other users
+
+- Add tags and notes to items in your lists
+
+- Paste Spotify, Discogs or Bandcamp links to add releases, or share links directly to Digs (even easier with ""https:&#x2F;&#x2F;digs.fm&#x2F;mobile_app"" rel=""nofollow"">https:&#x2F;&#x2F;digs.fm&#x2F;mobile_app</a>)
+
+- Quickly add releases to your lists while browsing other sites, via the browser extension (""https:&#x2F;&#x2F;digs.fm&#x2F;browser_extension"" rel=""nofollow"">https:&#x2F;&#x2F;digs.fm&#x2F;browser_extension</a>)
+
+I recently redesigned everything to improve usability, particularly on mobile. But also a lot of QoL improvements compared to the previous announcement post[1].
+
+It's a hobby project I do on my free time, so there are rough edges (particularly around search), however I’d appreciate any feedback or suggestions!
+
+""https:&#x2F;&#x2F;digs.fm"" rel=""nofollow"">https:&#x2F;&#x2F;digs.fm</a>
+
+[1] ""https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32551862"">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32551862</a>",Numeric,pre-labeled (script)
+"Show HN: CoolDock – a second Dock for macOS with live widgets and an MCP server
+
+I always hated desktop widgets because I never see them. They sit behind every window I have open. Same problem with Notification Center, it's hidden away so I never use it.
+
+The dock, however, is always there, it's already taking the real estate from the bottom of my screen, so why not add a second dock on the exact same real estate, that shows up as soon as the dock hides and vice versa, but not for apps - for widgets!
+
+CoolDock is that solution with 20+ widget categories - music, weather, AI usage, 3rd party integrations, mail, todo, habit tracker, posture reminder, water reminder and over 150 wallpapers to switch to based on my mood.
+
+And the best part is that it looks completely native with Liquid Glass, doesn't require disabling the macOS default dock and runs completely local, no telemetry, no account, only widgets and your integrations. Oh and best part #2 - I added an MCP server so I don't actually have to clickops my way to complete setup, I could just ask my AI to add a widget and configure it however I want it (MCP starts as read-only, you can choose to give it permission to actually change things).
+
+I actually acquired CoolDock from its original developer, and it's the second dock app I acquired from a developer (ExtraDock was the first). CoolDock currently has passed 1,200 users
+
+I am constantly adding new widgets based on user requests, currently at 160+ widgets to choose from, you can see them on the website ""https:&#x2F;&#x2F;cooldock.app"" rel=""nofollow"">https:&#x2F;&#x2F;cooldock.app</a>
+
+Happy to answer any question!",Numeric,pre-labeled (script)
+"Twitterwebviewer.net Is Back Online
+
+https:&#x2F;&#x2F;twitterwebviewer.net&#x2F;
+
+Previously, twitterviewer.net, which had some annoying ads, was seemingly the only website of this type left.
+
+But now twitterwebviewer is back. It doesn't have anywhere close to as many ads as twitterviewer does.
+
+I don't know exactly when twitterwebviewer came back online. The owner of the website didn't announce on here or Reddit or seemingly anywhere else that he had restored the website, and I discovered the website was back a few hours ago by accident when I was doing a google search to get to the similarly named twitterviewer.
+
+So now, even if you don't like all of twitterviewer's ads, there is an option to read Twitter without an account.",Numeric,pre-labeled (script)
+"Show HN: RDST – A local agent that watches Postgres/MySQL for query regressions
+
+We noticed during the course of many many years of DBA related work that fixes to database issues and queries are always reactive. An entire database can fall over extremely quickly when an unbounded query grows without warning.
+
+Traditionally, DBAs hear complaints of slowness and follow a methodical process: 
+- manually browse pg_stats or other database related performance internal tables 
+- see which queries are slowest
+- figure out what indexes are missing
+- figure out which indexes are actually bad and slowing down writes
+- painstakingly implement a fix
+
+In the age of cheap intelligence, we decided that there is no reason we can’t have an always-on agent that is designed to do this job for you.  Databases need something or someone that is always watching with a massive amount of contextual understanding to be able to take quick actions.  We’ve watched the alternative play out repeatedly. One of our users’s checkout page went from loading instantly to taking 11 seconds in a single night with no code change.  How? Well somehow their order table grew by 40M rows because BI team had injected historical data and suddenly postgres started doing full table scans. Sometimes routine operations have unintended results and can easily destroy your database. We wanted to catch these kinds of regressions instantly. So we built RDST.
+
+RDST is a desktop agent that runs on your PC and connects to PostgreSQL &#x2F; MYSQL (read only) and compares every query against its own performance every minute. Every expensive query is automatically EXPLAIN ANALYZED, stripped of PII and sent to U.S. based frontier or open model providers to analyze which indexes are missing, how the query could be rewritten, and provides the fix.  We then run a classifier model (JEV) to decide if you should be notified (is this standard behavior for this particular query?), and the full history of the query performance is kept for years.  RDST also keeps track of your entire database health in general, and recommends more fixes than simply bad queries.
+
+Since it runs locally we can keep the database credentials stored in your OS Keychain (RDST never keeps them in its own storage layer), and the connection goes straight to your database (using a jump host or SSH tunnel for private connections). You can read more about how we handle data especially as it pertains to LLM use here.
+
+""https:&#x2F;&#x2F;readyset.io&#x2F;docs&#x2F;readyset-ai&#x2F;rdst&#x2F;desktop&#x2F;privacy"" rel=""nofollow"">https:&#x2F;&#x2F;readyset.io&#x2F;docs&#x2F;readyset-ai&#x2F;rdst&#x2F;desktop&#x2F;privacy</a>
+
+We really want feedback from the community from people running Postgres and MySQL in production. We are giving inference away completely for free.
+
+Just as a reminder, RDST will NOT run any updates or indexes against your database at this time.  We are considering a fully autonomous auto-pilot mode in the future, but for now we are leaving the actual fixes in your hands.
+
+Let us know what you think!",Numeric,pre-labeled (script)
+"Show HN: Just gave Claude Code the website and ad budget to see what it would do
+
+I build websites for a living. Lately, it's more about prompting than actually writing the code (the art part is still there). So I decided to leave that part to Claude too and see what it would come up with. So far, I have given it
+
+- A baseline website
+- Full access to Google, X, LinkedIn and Reddit Ads, with a budget
+- Apify access
+- Openrouter access
+
+I also wanted it to personalize the website completely based on the user. No 2 users see the same website, most of the content is rendered on the client side using Deepseek. It uses
+- Device (GPU model, battery percentage, fonts installed, resolution, adblock installed, camera and mic connected, mouse polling rate, scroll speed, etc)
+- Demographics (Weather, time of the day, news around you, ..)
+- Behavior (Scroll speed, clicks, selection, referrer, etc)
+- Tons of other connected services through Apify
+
+So far it's doing tomfoolery for the most part. Like creating a gazzilion pages for SEO (exactly what our interns say every time), trying to go viral by adding share buttons, etc. But it's still super fun to see it make decisions every 4 hours.",Numeric,pre-labeled (script)
+"Show HN: Receptive Field – Learn Convolutional Neural Networks Interactively
+
+As a current student at UC Berkeley, I mostly have been leveraging AI as a tutor to get me through my classes. As a result, I have a collection of artifacts and tools that primarily help interact with and visualize complex concepts. I've turned this into a side project in the hopes some other people would find this helpful as well. As a broke college student I understand the need behind free educational resources, so this is completely free and will stay free. Looking for feedback, let me know what you think!",Qualitative,pre-labeled (script)
+"Muse Spark Open
+
+""https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-open"" rel=""nofollow"">https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope...</a>
+
+""https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B"" rel=""nofollow"">https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B</a>
+
+""https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio&#x2F;"" rel=""nofollow"">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...</a>",Numeric,pre-labeled (script)
+"Show HN: A curated directory of AI Tools
+
+A curated directory of AI-powered coding tools, autonomous agents, and developer utilities.",Qualitative,pre-labeled (script)
+"Ultramarine 1 Flash
+
+""https:&#x2F;&#x2F;www.paperinstruments.com&#x2F;blog&#x2F;ultramarine"">https:&#x2F;&#x2F;www.paperinstruments.com&#x2F;blog&#x2F;ultramarine</a>
+
+""https:&#x2F;&#x2F;twitter.com&#x2F;bertgodel&#x2F;status&#x2F;2110400987622265232"" rel=""nofollow"">https:&#x2F;&#x2F;twitter.com&#x2F;bertgodel&#x2F;status&#x2F;2110400987622265232</a>",Numeric,pre-labeled (script)
+"More on Anthropic's Scion ripping off Mononoke
+
+<i>Redesigning source control at Anthropic</i> - ""https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50073633"">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50073633</a> (996 comments)
+
+<i>Anthropic's Scion is heavily inspired by Mononoke</i> - ""https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50094694"">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50094694</a> (149 comments)",Numeric,pre-labeled (script)
+"Notational Velocity comes back in from the cold
+
+https:&#x2F;&#x2F;github.com&#x2F;scrod&#x2F;nv&#x2F;discussions&#x2F;402#discussioncomment-18951505
+
+&gt; A new update with ambitious new features is coming soon! In the meantime, this release is a stable build of NV that fixes all major issues, modernizes all deprecated code, and adds a few niceties and conveniences.
+
+Latest release: today (older releases are gone though)
+
+https:&#x2F;&#x2F;github.com&#x2F;scrod&#x2F;nv&#x2F;releases&#x2F;tag&#x2F;v2.5.1
+
+https:&#x2F;&#x2F;notational.net",Numeric,pre-labeled (script)
+"Show HN: Relay – A Mac app that adds /relay command to Claude, Codex and Cursor
+
+Simply put, Relay is just a copy-paster between Claude, Codex and Cursor. It adds a &#x2F;relay command to those GUIs that just sends the chat history since last over to the other side.
+
+I’ve been working on this small Mac app called Kanary that offers essential features. While building it, I found myself stupidly repeating the process of being a messenger between Claude and Codex.
+
+Then I thought, why not build a feature that helps my development process? What if Kanary could be a meta-app that bridges between harnesses? That’s when I hit on the idea of a meta harness. A wrapper that works IN the GUI apps that we already use, not a new app.
+
+It’s still just a copy-paster, but it has changed how I work tremendously. So far it’s a painkiller for me, not a vitamin. I’d love to hear what you think of this simple tool that does this one simple thing.
+
+75 free relays per week. Copy is always free.",Numeric,pre-labeled (script)
+"Show HN: Council AI. Spot biases / hallucinations in top AI models
+
+Examples:
+
+""The best and worst of AI in 2026"". ""https:&#x2F;&#x2F;councilai.app&#x2F;s&#x2F;e305b362-2835-4ac3-94e4-6a7c935f948c"" rel=""nofollow"">https:&#x2F;&#x2F;councilai.app&#x2F;s&#x2F;e305b362-2835-4ac3-94e4-6a7c935f948c</a>
+
+""The best and worst of Trump 2026"". ""https:&#x2F;&#x2F;councilai.app&#x2F;s&#x2F;9b4ca3f0-ee7e-47ed-9585-e5ab1b37a541"" rel=""nofollow"">https:&#x2F;&#x2F;councilai.app&#x2F;s&#x2F;9b4ca3f0-ee7e-47ed-9585-e5ab1b37a541</a>",Numeric,pre-labeled (script)
+"Show HN: RickCV, a modern resume builder where you can drag&drop your old CV
+
+*You can drag and drop your old resume, and with a little luck, most of the data will be imported, which can at least serve as a good starting point.
+
+I initially built RickCV a few months ago as a simple template for an HTML resume and have continued to refine it over time. I and many people in my personal circle enjoy using it and have had success with it.
+It’s a relatively playful approach that might not be to everyone’s taste. It currently supports the following formats:
+
+- German cover letter following the layout rules of DIN 5008
+
+- English cover letter, in A4 or US Letter.
+
+I hope you find it as useful as we do.",Numeric,pre-labeled (script)
+"A misbehaving test MCP server for stress-testing your MCP client
+
+We needed an MCP server that misbehaves on our command to test our own MCP gateway at work, but could only find well-behaved MCPs. That’s why we built a misbehaving MCP server ourselves and now share it on here, might be helpful for others building MCP gateways.
+
+It’s similar to the MCP Inspector, but lets you test your client not your server.
+
+We called it MCP Test Kitchen and it’s a (also hosted) MCP server that lets you:
+
+* Connect any client that takes a URL and an Authorization header (Cursor, Claude Desktop or your own). It answers both 2025-11-25 and 2026-07-28 clients and logs which protocol revision each request declared.
+
+* Pick one of 6 scenarios: HTTP transport errors, JSON-RPC error responses, tool results flagged isError, elicitation, multi round-trip requests (MRTR) via a C# SDK v2 scenario, and a baseline with a configurable delay. JSON-RPC and tool errors can be set to fail on a specific call, so the first call succeeds and the second fails. Resources and prompts are always on, each with a deliberately broken variant. If you want other scenarios, let us know.
+
+* Watch every request in a live log with timing, method, caller, status and protocol version.
+
+* Clone a TypeScript reference client, pinned to the latest spec, with full source.
+
+You can run it yourself, it’s open source. If you’d rather test it live, we also hosted it, but you need to login (Google or GitHub, needed for the token) and can get started immediately.
+
+We’d appreciate feedback, that’s why we're posting. In the live tool, there is a box that emails us directly. We’re around to check feedback + other scenarios you wish it had.
+
+* Link to the repo here: ""https:&#x2F;&#x2F;github.com&#x2F;cakewalk-security&#x2F;cakewalk-mcp-test-kitchen"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;cakewalk-security&#x2F;cakewalk-mcp-test-kitch...</a>
+
+* Live tool access here: ""https:&#x2F;&#x2F;mcp-test-kitchen.cakewalk.security&#x2F;login"" rel=""nofollow"">https:&#x2F;&#x2F;mcp-test-kitchen.cakewalk.security&#x2F;login</a>
+
+* More information on why we built this: ""https:&#x2F;&#x2F;www.cakewalk.security&#x2F;mcp-test-kitchen&#x2F;blog&#x2F;wtf-simulator"" rel=""nofollow"">https:&#x2F;&#x2F;www.cakewalk.security&#x2F;mcp-test-kitchen&#x2F;blog&#x2F;wtf-simu...</a>",Numeric,pre-labeled (script)
+"Show HN: A minimalistic building blocks style C++ coroutine library
+
+I wrote this originally to use with a sudo for Windows project I'm working on. It's bring-your-own-executor - you can see how I use it with Windows IO completion ports at [1]. The library itself breaks coroutines down into small pieces that can be combined to make many different kinds of tasks and generators - see how they're put together at [2]. Feel free to ask me about C++ coroutines or give feedback.
+
+[1] ""https:&#x2F;&#x2F;github.com&#x2F;parkovski&#x2F;wsudo&#x2F;blob&#x2F;master&#x2F;lib&#x2F;common&#x2F;corio.cpp"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;parkovski&#x2F;wsudo&#x2F;blob&#x2F;master&#x2F;lib&#x2F;common&#x2F;co...</a>
+
+[2] ""https:&#x2F;&#x2F;github.com&#x2F;parkovski&#x2F;wscoro&#x2F;blob&#x2F;master&#x2F;include&#x2F;wscoro&#x2F;wscoro.h"" rel=""nofollow"">https:&#x2F;&#x2F;github.com&#x2F;parkovski&#x2F;wscoro&#x2F;blob&#x2F;master&#x2F;include&#x2F;wsco...</a>",Numeric,pre-labeled (script)
