@@ -1,0 +1,178 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 30,
+  "seed": 42,
+  "held_out": false,
+  "used_definitions": true,
+  "scores": {
+    "n": 30,
+    "accuracy": 0.6666666666666666,
+    "f1_macro": 0.4,
+    "per_label": {
+      "Numeric": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "support": 20
+      },
+      "Qualitative": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 10
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "Show HN: Parents Inbox \u2013 Communication Guide for Schools\n\nAt a dinner party with other parents recently, the conversation turned to the challenges we all have with communication coming from our children's schools. Emails and Texts and App notifications, coming from Teachers, Admins, PTA, After-Care programs. Overlapping information, buried key details, verbose fluff. An avalanche of text every day that must be carefully parsed to find important info.\n\nThis seems to be a universal problem and certainly one I experience every day. So literally before dinner was over I built the first version of this site on my phone with Claude.\n\nI think the main problem is that the folks who are responsible for communication just don't have the tools and experience to know what good communication really looks like, or the parents perspective hasn't been demonstrated to them to give them more empathy. So I am hoping this can help. Feel free to share if you have the same problem with your school.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Risphai \u2013 picks the AI model, tools and prompt for each request\n\nI noticed that a lot of non-technical people don\u2019t use AI to its full extent. Like they use the wrong model for the task, the wrong reasoning effort, or vague prompts. That gap between \"what the AI can do\" and \"what people actually get\" is what I wanted to fix.\n\nSo I spent the last two years in my spare time building a consumer AI product that tries to fix this issue.\n\nThis is how it works:\nWhen it receives the request, an LLM decides the task type (chat, reasoning, coding, writing) and the tool calls that are needed (web search, image generation, video generation, audio generation). Then it routes it to a suitable model and applies a prompt based on the task type. If it's a media generation task, it rewrites the prompt into a detailed one using prompt formulas (the prompt formulas for specific styles are mentioned in the system prompt). The LLM that is used for answering the request can also use a map, generate a mermaid diagram, generate a quiz or flashcards, generate files, etc.\n\nA limitation right now is that routing adds latency, but I'm currently experimenting with decision-models like Jev, PPLX Decider, etc. and might use decision-models to route to the right LLM and give the tool calls like web search and media generation to the answering LLM.\n\nIt launched this week, so it's still early and I will keep improving it and adding new things.\n\nAlso sign-up&#x2F;in is required to prevent abuse.\n\nI\u2019d really like honest feedback: what\u2019s confusing, what\u2019s missing, etc.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Why is there no AlphaZero for theorem proving?\n\nIt seems an obvious thing to try; therefore, it has been tried.\n\nImpressive results are publicized; therefore it wasn't impressive.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: OAuth Mock Server\n\nI have developed a mock OAuth server which can be used as a drop-in replacement for testing OAuth integrations in end-to-end tests.\n\nIt supports Google, Microsoft, GitHub and other providers.\n\nSee: \"https:&#x2F;&#x2F;github.com&#x2F;atagon-GmbH&#x2F;oAuth-mock\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;atagon-GmbH&#x2F;oAuth-mock</a>\n\nI hope it works and helps someone!\n\nHave a nice day ((-;",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Biblio Times, your RSS feeds, typeset as a morning newspaper (Mac/iOS)\n\nthe concept is not new but seem like people miss this newspaper in someway.\n\nThe news is fetched on your own device, and nothing passes through your servers. That\u2019s also why a traffic spike can\u2019t take it down.\n\nThe halftone photographs, the fold on iPhone and Duo, and the page curl.\n\nWe are submitting a new update with OPML import. and will continue support the development.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "What's the management thinking behind enshittification\n\n... such as pushing a software update to your customers' smart thermostat to show ads on its screen - as a new thing.\n\nOne theory: Previously our customers were techy and smart, and would not stand it. Now we're more reaching average Joe, who is too dumb to push back.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Inherit \u2013 Zero to Iac\n\nThere are several reverse terraform products out there. Some have paywalls, some are outdated. I wanted to try my hand at creating one that would start from nothing and produce an iac repo that plans, imports, and has a useable state. I'd love to hear your thoughts and feedback.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Tell HN: Google Argon on a Pro subscription is worthless\n\nMaybe that was true with Fable as well.  But one prompt which took 5 minutes of clock time, used 50% of the resources of a Pro account for the 5 hour window.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Ask HN: What world do you want to live in?\n\nEveryone on here is quite familiar with the tech tool potential and the dystopian use trends. In some large part, these are social decisions. What laws do you want to see that limit tech, and that allow tech?",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "E Ink Kaleido 4\n\n\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20261015180401&#x2F;https:&#x2F;&#x2F;www.eink.com&#x2F;news&#x2F;detail&#x2F;EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20261015180401&#x2F;https:&#x2F;&#x2F;www.eink....</a>",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: A curated directory of AI Tools\n\nA curated directory of AI-powered coding tools, autonomous agents, and developer utilities.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Rad PDFs \u2013 Hacker News for PDFs Only\n\nFor the past few years I have found myself not wanting to be at a screen most of the time. I convert most blog posts I plan on reading to PDFs and print them out. This is a site for people to link their PDFs for others to read.\n\nYou are encouraged to submit PDFs in A4 or 8.5x11 for print-friendliness.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: I turned my kids' old Yoto Player into an Audiobookshelf player\n\nMy kids love their Yotos and I love Audiobookshelf. I wanted something in between that works as they get older and more control. I had two old Gen 2 players lying around that Yoto no longer supports.\n\nIt turns the player into an Audiobookshelf client. You browse your library with the two knobs, the 16x16 screen shows tiny cover art, and favourites and downloads sync back to the server. Its still keeps the NFC card concept, but they're optional: you can link books&#x2F;favourites to any NFC card. It all runs locally, with no Yoto account or cloud.\n\nIt does require opening the player and soldering some wires to flash the initial firmware, but then its OTA after that.\n\nDisclaimer: Its all Claude Code, Its an idea I've been slowly tinkering around in my spare time and never got very far so. I threw Claude Code at it and I was amazed at how well it did. Flashing, reading logs and fixing things - leaving me to just perform physical button presses and checks.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Open Source Discord\n\nHi, I just wanted to ask how many of you guys are tired of Discord and the trash features they added.\nAs a gamer, I remember how discord was a good platform for talking and hanging out but it's been a long time from that feeling so I made my own discord, I used to live in ultra restricted country ( not north korea) and when they start blocking discord all of us needed to immigrate to either TeamSpeak or Steam voice chat but these two also have some flaws; for example, TeamSpeak is an old app even the new one (Teamspeak 5) has some grandpa UI that not anyone enjoy it top on that you can't share or easily share files.\nSo I made my own Discord&#x2F;TeamSpeak clone. I hated that public Discord clone has a lot of complicated server setup. I wanted something that I don't need to set up for an hour, and it's also easy to work with, same as Discord but nothing complicated. \nWould this app be interested for you? also it's opensource",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Cwist; a hobby-grade C17 web framework that keeps your app simple\n\nFirst of all, I'm not claiming that my framework will save industrial C&#x2F;C++ development. It's just a hobby project.\n\nIndustrial code needs safer code, not easier code. But when you're developing a blog at 8 PM, long template errors are annoying.\n\nYou need CRUD and RDBMS. It's simple.\n\nCWIST is for that kind of work.\n\nIt sacrifices memory safety, smart pointers, and modern C++ abstractions. In return, compile errors are more predictable.\n\n<pre><code>  #include &lt;stdio.h&gt;\n  #include &lt;cwist&#x2F;app.h&gt;\n  #include &lt;cwist&#x2F;core&#x2F;db&#x2F;pool.h&gt;\n  #include &lt;cwist&#x2F;core&#x2F;template&#x2F;template.h&gt;\n  \n  static cwist_db_pool_t *g_db_pool;\n  \n  static void send_error(cwist_http_response *res, const char *msg) {\n    res-&gt;status_code = CWIST_HTTP_INTERNAL_ERROR;\n    cwist_http_header_add(&amp;res-&gt;headers, \"Content-Type\", \"text&#x2F;plain\");\n    cwist_sstring_assign(res-&gt;body, msg);\n  }\n  \n  static void render(cwist_http_response *res, const char *path, cJSON *ctx) {\n    cwist_sstring *html = cwist_template_render_file(path, ctx);\n    if (html) {\n      cwist_http_header_add(&amp;res-&gt;headers, \"Content-Type\", \"text&#x2F;html\");\n      cwist_sstring_assign(res-&gt;body, html-&gt;data);\n      cwist_sstring_destroy(html);\n    }\n    cJSON_Delete(ctx);\n  }\n  \n  static void handle_index(cwist_http_request *req, cwist_http_response *res) {\n    (void)req;\n    cJSON *ctx = cJSON_CreateObject();\n    cJSON_AddStringToObject(ctx, \"title\", \"CWIST Example\");\n    cJSON_AddStringToObject(ctx, \"greeting\", \"Hello from CWIST\");\n    render(res, \"templates&#x2F;index.html\", ctx);\n  }\n  \n  static void handle_users(cwist_http_request *req, cwist_http_response *res) {\n    (void)req;\n    if (!g_db_pool) return send_error(res, \"database pool unavailable\");\n  \n    cwist_db_pool_exec(g_db_pool,\n      \"CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT);\"\n      \"INSERT INTO users (name) SELECT 'Alice' WHERE NOT EXISTS \"\n      \"(SELECT 1 FROM users WHERE name = 'Alice');\"\n      \"INSERT INTO users (name) SELECT 'Bob' WHERE NOT EXISTS \"\n      \"(SELECT 1 FROM users WHERE name = 'Bob');\");\n  \n    cJSON *rows = NULL;\n    if (cwist_db_pool_query(g_db_pool,\n        \"SELECT id, name FROM users ORDER BY id;\", &amp;rows).error.err_i16)\n      return send_error(res, \"failed to query database\");\n  \n    cJSON *ctx = cJSON_CreateObject();\n    cJSON_AddItemToObject(ctx, \"users\", rows ? rows : cJSON_CreateArray());\n    render(res, \"templates&#x2F;users.html\", ctx);\n  }\n  \n  static void handle_health(cwist_http_request *req, cwist_http_response *res) {\n    (void)req;\n    cwist_http_header_add(&amp;res-&gt;headers, \"Content-Type\", \"text&#x2F;plain\");\n    cwist_sstring_assign(res-&gt;body, \"ok\");\n  }\n  \n  int main(void) {\n    g_db_pool = cwist_db_pool_create(\".&#x2F;app.db\", 1);\n    if (!g_db_pool) return 1;\n  \n    cwist_app *app = cwist_app_create();\n    cwist_app_get(app, \"&#x2F;\", handle_index);\n    cwist_app_get(app, \"&#x2F;users\", handle_users);\n    cwist_app_get(app, \"&#x2F;health\", handle_health);\n    cwist_app_use_https(app, \"cert.pem\", \"key.pem\");\n    cwist_app_listen(app, 8082);\n    cwist_app_destroy(app);\n    cwist_db_pool_destroy(g_db_pool);\n    return 0;\n  }\n\n</code></pre>\nCode style is old and still small. The code is simple and stupid.\n\nCWIST functions use the same `cwist_xx_xx` naming format. It's consistent. It's harder to make a slop in CWIST.\n\nFeatures\n\n- CWIST GC for fast prototyping. It's closer to a garbage sweeper than a traditional GC, and lighter.\n- Dev blog engine\n- HTML Template Engine\n- WASM\n\nExternal benchmark:\n\"https:&#x2F;&#x2F;web-frameworks-benchmark.netlify.app&#x2F;compare?f=cwist,drogon\" rel=\"nofollow\">https:&#x2F;&#x2F;web-frameworks-benchmark.netlify.app&#x2F;compare?f=cwist...</a>\n\nLatest results may be masked:\n\"https:&#x2F;&#x2F;github.com&#x2F;the-benchmarker&#x2F;web-frameworks&#x2F;issues&#x2F;9775\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;the-benchmarker&#x2F;web-frameworks&#x2F;issues&#x2F;977...</a>\n\nUnofficial results (not reliable):\n\"https:&#x2F;&#x2F;github.com&#x2F;c4punks&#x2F;CWIST&#x2F;actions&#x2F;runs&#x2F;39000473564&#x2F;job&#x2F;117302127557\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;c4punks&#x2F;CWIST&#x2F;actions&#x2F;runs&#x2F;39000473564&#x2F;jo...</a>\n\nDev blog: \"https:&#x2F;&#x2F;oborona.zip\" rel=\"nofollow\">https:&#x2F;&#x2F;oborona.zip</a>\nOrg: \"https:&#x2F;&#x2F;c4punks.github.io\" rel=\"nofollow\">https:&#x2F;&#x2F;c4punks.github.io</a>\n\nIt doesn't help my portfolio, but please star the project if you enjoyed it.\n\nSpecial thanks to \"https:&#x2F;&#x2F;github.com&#x2F;thegoodengineer\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;thegoodengineer</a> for inviting organization members.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "AI as a part of capitalism \u2013 the right way to go\n\nThe way things go now are obsiously flawed.\n\n1. AI companies objective is to get rid of a very large part of jobs, thus converting a large part of consumers into jobless people - who are very bad at consuming.\n\n2. They also take other people's and companie's content for free, turning them into own profits, thus removing any incentives to create such content in the future.\n\nProposed solution.\n\n1. All data models are created anew.\n\n2. All of the model content should be marked and paid for to its creators in a proportional amount to each specific training data usage.\n\n3. No payment = no use in the model, unless a creator provides a free license to LLM's.\n\n4. Any commercial data needs an explicit permission to be used in training.\n\n5. Profits made on data with no explicit owner (say, Shakespeare) are to be paid off to the respective country.\n\n6. This policy is enforced worldwide.\n\nWhen implemented, this policy will ensure that:\n\na. Many people whose jobs suffer remain part of the AI economy or can become parts of it;\n\nb. Open-source software, photographers, artists, etc. will receive their rightful share of AI profits;\n\nc. People will have a very good incentive to keep on creating.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5\n\nLately I've been testing frontier models by having them create self-contained web pages that display clocks--sort of my personal version of Simon Willison\u2019s pelican-on-a-bicycle metric.\n\nI have been particularly impressed by the variety, interest, and quality of the clocks created by Claude Opus 5.5. Over the course of several sessions in the Claude chat interface, I had it build a total of 500 clocks.\n\nClaude\u2019s summary of the prompting process and page design is here:\n\n\"https:&#x2F;&#x2F;github.com&#x2F;tkgally&#x2F;500-clocks&#x2F;tree&#x2F;main\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;tkgally&#x2F;500-clocks&#x2F;tree&#x2F;main</a>",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Fakeipedia \u2013 Wikipedia for worlds that don't exist\n\nHi HN!\n\nFakeipedia is an automatic world-building platform which takes an imagined world and makes a whole wiki that you can endlessly explore by clicking red links.\n\nI came up with this idea a few months ago after playing around with worldbuilding in Gemini, but I didn't want to release it until a powerful enough model could do it justice, and I decided that Argon is creative enough to write articles that are worth reading. I was surprised how well it turned out and how engaging some of the writing actually is.\n\nIf you want to generate an article there is a nominal charge attached ($0.90), which helps cover AI&#x2F;Stripe costs, and I think I just about break even. You can also steer the generation ala choose-your-own-adventure books when generating a new article. Everything generated is free and public for everyone to see.\n\nI hope you like it and I'm very much open to hearing about new world ideas&#x2F;features that would make this project better.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Nine-Inch Snails\n\n\"https:&#x2F;&#x2F;www.theatlantic.com&#x2F;science&#x2F;2026&#x2F;10&#x2F;giant-african-snails-florida-invasion&#x2F;688850&#x2F;?gift=eKUtrZynxFJ4xrXiS7sXWm4LQEkwrCNuhj_xxtnEnrg&amp;utm_source=copy-link&amp;utm_medium=social&amp;utm_campaign=share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theatlantic.com&#x2F;science&#x2F;2026&#x2F;10&#x2F;giant-african-sn...</a>\n\n\"https:&#x2F;&#x2F;archive.ph&#x2F;5a0TV\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;5a0TV</a>",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: A fun little app to play with chaos\n\nSo I fell in love with Physics when I read Chaos by James Gleick and I didn't actually know how to program at the time but much of the book was rooted in the concept that chaotic non-deterministic behaviour can emerge from a few simple rules. Probably the best known example is the butterfly effect but there are many others. 20+ years later I am able to vibe code this app to visually demonstrate this simplicity and chaos. Would love to get some feedback on the app. Please be as honest as possible. Or just some chats about Chaos.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Gridmark \u2013 make logos by tweaking shapes on a grid\n\nI built this (with claude) as i needed a logo for a project im working on but really did not want to use AI to make the logo. It all runs in browser and you can make logos and save them and download png and svgs without watermarks or anything.\n\nAt the end of the day it's just an SVG manipulator with some sensible bounds for making some pretty cool looking designs.\n\nI did add a paid feature to download the whole brand kit but not really looking to make any money out of it. Would love feedback or any ideas on things to add for different grid types &#x2F; styles.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "You could have invented transformers from memory\n\n\"https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932</a>",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Donut Browser, the most private anti-detect browser\n\nHi everyone!\n\nAbout 2 years ago, I began to work on Donut Browser as a tool to manage browser profiles, which over time has evolved into a proper anti-detect browser.\n\nAnti-detect browsers let you create browser profiles that look like as if you have a completely different computer. I believe Donut is the most private anti-detect browser because:\n- It has no telemetry and doesn't track your browsing activity\n- It spoofs your browser identity in a way that looks like a real device for every profile\n- It notifies you when a website takes a snapshot of your browser identity\n- It is built on top of Chromium and lets you block ads and trackers at the DNS level without relying on Manifest V2\n- It lets you create unlimited profiles (the first anti-detect browser to do that)\n- It supports Linux, which not all anti-detect browsers do!\n\nI use Donut as my main browser and the only other browser I have installed is Tor. If you are into privacy, it offers a lot better experience than Firefox containers or writing your own scripts to manage profiles!\n\nIf anyone is going to try it, would love to hear any feedback!",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Ianal?\n\nlooks like we've been kidding ourselves all these years prefixing our advice with \"IANAL\". Maybe let's switch to IANAA from now on.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Poll: Stanford students preferred 22% less salary for annual equity liquidity\n\nI\u2019m one of the founders of Street. We ran a poll with 500+ people in our Stanford network about how they\u2019d choose between two startup offers.\nBoth had the same role, vesting and $1m equity grant. One paid $180k, with the equity locked until an IPO or acquisition. The other paid $140k, but allowed them to sell up to 5% of their shares each year.\nMore than half picked the $140k offer.\nWe work on shareholder liquidity at private companies, which is why we wanted to look into this. These were hypothetical offers, but I thought the result was worth sharing here. Happy to answer questions about the poll.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Pbschema-lens \u2013 static doc generator for protobuf\n\nA static HTML site generator for protobuf schemas.\nThe generator is a single Go binary.\n\nFeatures include support for protobuf editions, rendering for options with special rendring for popular options, markdown in comments, symbol &amp; full-text search, source view, etc.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Ask HN: How did Call of Duty fix \"update requires restart\"?\n\nCall of duty for years has performed automatic updates when launching the game that required the user to restart the game once applied. This was a very frequent annoyance for many players. Supposedly this is fixed in the newest title launching soon, and I'm very curious what the architecture was that lead to this UX persisting for so long. I would love to hear any first hand accounts, please do not speculate, I can speculate myself.",
+      "gold": "Qualitative",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Show HN: Relay \u2013 A Mac app that adds /relay command to Claude, Codex and Cursor\n\nSimply put, Relay is just a copy-paster between Claude, Codex and Cursor. It adds a &#x2F;relay command to those GUIs that just sends the chat history since last over to the other side.\n\nI\u2019ve been working on this small Mac app called Kanary that offers essential features. While building it, I found myself stupidly repeating the process of being a messenger between Claude and Codex.\n\nThen I thought, why not build a feature that helps my development process? What if Kanary could be a meta-app that bridges between harnesses? That\u2019s when I hit on the idea of a meta harness. A wrapper that works IN the GUI apps that we already use, not a new app.\n\nIt\u2019s still just a copy-paster, but it has changed how I work tremendously. So far it\u2019s a painkiller for me, not a vitamin. I\u2019d love to hear what you think of this simple tool that does this one simple thing.\n\n75 free relays per week. Copy is always free.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Emu Concept \u2013 Make AI Follows Your Rules. (Feedback Wanted)\n\nThe idea is how can we make personal agent apps on the phone just listen to your rules... Like it's weird to have Muse, Grok Bot, Dots, Instinct not ask me about when I want them to work for me or align with my rules, values, and goals.\n\nIf I give these agents access to tools&#x2F;connectors&#x2F;data they just \"assume\" what I want or what it should do rather than asking me? And even if I set these for a specific agent then what happens when a newer personal agent comes out? Do I have to reconfigure again my rules for each flavor of personal agents or harness?\n\nThis is where our initial idea stems from and we need feedback:\n\nEmu is a self-learning on-device AI guardian that makes AI agents follow your rules. Also the video above kind of just highlights Emu's concept thought process.",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    },
+    {
+      "text": "Notational Velocity comes back in from the cold\n\nhttps:&#x2F;&#x2F;github.com&#x2F;scrod&#x2F;nv&#x2F;discussions&#x2F;402#discussioncomment-18951505\n\n&gt; A new update with ambitious new features is coming soon! In the meantime, this release is a stable build of NV that fixes all major issues, modernizes all deprecated code, and adds a few niceties and conveniences.\n\nLatest release: today (older releases are gone though)\n\nhttps:&#x2F;&#x2F;github.com&#x2F;scrod&#x2F;nv&#x2F;releases&#x2F;tag&#x2F;v2.5.1\n\nhttps:&#x2F;&#x2F;notational.net",
+      "gold": "Numeric",
+      "predicted": "Numeric"
+    }
+  ]
+}
