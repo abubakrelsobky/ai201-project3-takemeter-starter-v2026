@@ -240,10 +240,13 @@ marked `cold`.
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
+I predict my fine-tuned model will perform better
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
+
+     Baseline accuracy with my definitions: 0.667; with bare label names: 0.533. My definitions were worth 0.134 points.
 
 
 
